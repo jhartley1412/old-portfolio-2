@@ -10,6 +10,13 @@
 @import "variables-grid.scss";
 
 
+// BASIC HTML STANDARDS
+
+body{
+	background-color: pink;
+}
+
+
 // FONTS AND TYPE
 
 p, h1, h2, h3{
@@ -25,7 +32,13 @@ h1, h2, h3{
 }
 
 
+// MAIN CONTAINER
 
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #E0E0E0;
+}
 
 
 
