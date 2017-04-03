@@ -1,0 +1,137 @@
+
+@import "variables-grid";
+
+
+.blog-page-title{
+	@extend .col-lg-11;
+	@extend .col-md-11;
+
+	box-sizing: border-box;
+	//margin info in _breakpoints.scss
+	padding-left: 3%;
+}
+
+.post-list{
+	@extend .col-lg-11;
+	@extend .col-md-11;
+
+	margin: 0 auto;
+	padding-left: 0;
+
+	li{
+    	list-style-type: none;
+    	border: 1px solid black;
+    	display: block;
+    	float: left;
+    	overflow: hidden;
+    	
+    	// project width and margins in _breakpoints.scss
+    	text-align: center;
+    	padding: 1.2em 0 1.8em 0;
+    	border: 1px solid $prime-color;
+		
+		&:hover{
+			cursor: pointer;
+			color: #fff;
+			background-color: $prime-color;
+
+			a, h2{
+				color: #fff;
+			}
+		}
+
+    	a, h2{
+    		text-decoration: none;
+    	}
+	}
+
+	.post-link{
+		padding: 1.2em 0 1.8em 0;
+	}
+
+	h2{
+		font-family: 'Dosis', Verdana, Geneva, sans-serif;
+		color: #000;
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+}
+
+.post{
+	@extend .col-lg-6;
+	@extend .col-md-7;
+
+	margin: 0 auto;
+	margin-bottom: 5em;
+	font-size: 1.1em;
+}
+
+.post-header{
+	margin: 1em auto;
+	font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	overflow: hidden;
+}
+
+.post-title{
+	margin-bottom: 0;
+}
+
+// post date
+.post-meta{
+	font-family: 'Maven Pro', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.3em;
+	margin-top: 0;
+}
+
+.post-content{
+	margin-top: 2em;
+}
+
+.blog-video{
+	width: 560px;
+	height: 315px;
+	margin: 0 auto;
+	display: block;
+}
+
+.blog-image{
+
+	img{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.double-image{
+
+	img{
+		// margin and width in _breakpoints.scss
+		display: block;
+		float: left;
+		margin-bottom: 2em;
+	}
+}
+
+.glass-image{
+
+	img{
+		width: 300px;
+	}
+}
+
+.fmf-wireframe3{
+
+	img{
+
+		max-width: 500px;
+	}
+}
+
+
+
+
+
+
+
+
