@@ -6,171 +6,172 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 300px){
+
 	
-	h1{
-		font-size: 1.8em;
-		margin-top: 0.2em;
-	}
+// 	h1{
+// 		font-size: 1.8em;
+// 		margin-top: 0.2em;
+// 	}
 
 
-	//header nav
-	.trigger{
-		width: 98%;
-		margin: 0 auto;
-		padding: 0 0 0 1em;
+// 	//header nav
+// 	.trigger{
+// 		width: 98%;
+// 		margin: 0 auto;
+// 		padding: 0 0 0 1em;
 
-		a{
-			margin: 0 3%;
-			display: inline-block;
-		}
-	}
+// 		a{
+// 			margin: 0 3%;
+// 			display: inline-block;
+// 		}
+// 	}
 
-	.header-logo{
-		float: none;
-		margin: 0 auto;
-		display: block;
-		text-align: center;
-	}
+// 	.header-logo{
+// 		float: none;
+// 		margin: 0 auto;
+// 		display: block;
+// 		text-align: center;
+// 	}
 
-	header{
-		border-bottom: 2px solid $prime-color;
-		padding-bottom: 1em;
-	}
-
-
-	//home page background
-	.main-banner{
-		background-position: right top;
-		background-position: 50% 50%;
-	}
+// 	header{
+// 		border-bottom: 2px solid $prime-color;
+// 		padding-bottom: 1em;
+// 	}
 
 
-	// PROJECT ELEMENTS
-	// ———————————————————————————————————————————
-
-	.sub-nav{
-		width: 95%;
-		padding: 0.6em 1.5em 0 1.5em;
-
-		a, .sub-nav-title{
-			font-size: 0.8em;
-			display: block;
-		}
-
-		a{
-			padding: 0.6em 0;
-		}
-	}
-
-	// sub navigation a tags
-	.project-a{
-		display: inline-block;
-		float: left;
-		margin-right: 1em;
-		text-decoration: underline;
-	}
-
-	.project-banner{
-		margin-bottom: 0;
-		padding-top: 0;
-	}
+// 	//home page background
+// 	.main-banner{
+// 		background-position: right top;
+// 		background-position: 50% 50%;
+// 	}
 
 
-	.project-container{
-		padding: 1.5em;
-	}
+// 	// PROJECT ELEMENTS
+// 	// ———————————————————————————————————————————
 
-	.process-row{
-		border-left: none;
-		padding: 0;
-		margin: 2em auto;
-		margin-bottom: 2em;
-	}
+// 	.sub-nav{
+// 		width: 95%;
+// 		padding: 0.6em 1.5em 0 1.5em;
 
-	.project-desc{
-		padding: 0;
-	}
+// 		a, .sub-nav-title{
+// 			font-size: 0.8em;
+// 			display: block;
+// 		}
 
-	.desk-float{
-		float: none;
-	}
+// 		a{
+// 			padding: 0.6em 0;
+// 		}
+// 	}
 
-	.desk-center{
-		clear: both;
-		margin: 0 auto;
-	}
+// 	// sub navigation a tags
+// 	.project-a{
+// 		display: inline-block;
+// 		float: left;
+// 		margin-right: 1em;
+// 		text-decoration: underline;
+// 	}
 
-	.image-one{
-		float: none;
-		margin: 0 auto;
-	}
-
-	.image-double{
-		width: 88%;
-		margin: 0 auto;
-		margin-bottom: 1em;
-	}
-
-	.image-third{
-		width: 88%;
-		margin: 0 auto;
-		margin-bottom: 1em;
-	}
-
-	.desc-image{
-		margin: 2em auto 1em auto;
-	}
-
-	.portrait{
-		margin: 6% auto;
-		max-width: 600px;
-	}
-
-	.landscape{
-		margin: 10% auto;
-		max-width: 900px;
-	}
+// 	.project-banner{
+// 		margin-bottom: 0;
+// 		padding-top: 0;
+// 	}
 
 
-	// BLOG POST ELEMENTS
-	// ———————————————————————————————————————————
+// 	.project-container{
+// 		padding: 1.5em;
+// 	}
+
+// 	.process-row{
+// 		border-left: none;
+// 		padding: 0;
+// 		margin: 2em auto;
+// 		margin-bottom: 2em;
+// 	}
+
+// 	.project-desc{
+// 		padding: 0;
+// 	}
+
+// 	.desk-float{
+// 		float: none;
+// 	}
+
+// 	.desk-center{
+// 		clear: both;
+// 		margin: 0 auto;
+// 	}
+
+// 	.image-one{
+// 		float: none;
+// 		margin: 0 auto;
+// 	}
+
+// 	.image-double{
+// 		width: 88%;
+// 		margin: 0 auto;
+// 		margin-bottom: 1em;
+// 	}
+
+// 	.image-third{
+// 		width: 88%;
+// 		margin: 0 auto;
+// 		margin-bottom: 1em;
+// 	}
+
+// 	.desc-image{
+// 		margin: 2em auto 1em auto;
+// 	}
+
+// 	.portrait{
+// 		margin: 6% auto;
+// 		max-width: 600px;
+// 	}
+
+// 	.landscape{
+// 		margin: 10% auto;
+// 		max-width: 900px;
+// 	}
+
+
+// 	// BLOG POST ELEMENTS
+// 	// ———————————————————————————————————————————
 	
-	//about me page mobile "padding" (also used for blog posts)
-	.aboutme-page-container{
-		width: 100%;
-		box-sizing: border-box;
-		padding: 0 2em;
-	}
+// 	//about me page mobile "padding" (also used for blog posts)
+// 	.aboutme-page-container{
+// 		width: 100%;
+// 		box-sizing: border-box;
+// 		padding: 0 2em;
+// 	}
 	
-	//about me title
-	.aboutme-page-title{
-		width: 80%;
-		margin: 1em auto 1em auto;
-		margin-left: 8%;
-	}
+// 	//about me title
+// 	.aboutme-page-title{
+// 		width: 80%;
+// 		margin: 1em auto 1em auto;
+// 		margin-left: 8%;
+// 	}
 
-	//blog post title
-	.blog-page-title{
-		width: 80%;
-		margin: 1em auto 1em auto;
-	}
+// 	//blog post title
+// 	.blog-page-title{
+// 		width: 80%;
+// 		margin: 1em auto 1em auto;
+// 	}
 
-	//blog posts size and width
-	.post-list{
+// 	//blog posts size and width
+// 	.post-list{
 
-		li{
-			width: 70%;
-    		margin: 0 15% 2em 15%;
-		}
-	}
+// 		li{
+// 			width: 70%;
+//     		margin: 0 15% 2em 15%;
+// 		}
+// 	}
 
-	.double-image{
+// 	.double-image{
 
-		img{
-			width: 100%;
-			margin: 0 auto;
-		}
-	}
+// 		img{
+// 			width: 100%;
+// 			margin: 0 auto;
+// 		}
+// 	}
 
 }
 
@@ -184,134 +185,134 @@
 @media(min-width: 420px){
 	
 
-	h1{
-		font-size: 2.1em;
-		margin: 0.2em auto 0 auto;
-	}
+	// h1{
+	// 	font-size: 2.1em;
+	// 	margin: 0.2em auto 0 auto;
+	// }
 
 
-	//header nav
-	.trigger{
-		width: auto;
-		margin: 1.8em 1.5em;
+	// //header nav
+	// .trigger{
+	// 	width: auto;
+	// 	margin: 1.8em 1.5em;
 
-		a{
-			margin: 0 2em 0 0;
-		}
-	}
+	// 	a{
+	// 		margin: 0 2em 0 0;
+	// 	}
+	// }
 
-	.header-logo{
-		float: left;
-		margin: 0 auto;
-		display: inline-block;
-		text-align: left;
-	}
+	// .header-logo{
+	// 	float: left;
+	// 	margin: 0 auto;
+	// 	display: inline-block;
+	// 	text-align: left;
+	// }
 
-	header{
-		border-bottom: none;
-		padding-bottom: 0;
-	}
-
-
-	//home page background
-	.main-banner{
-		background-position: right top;
-		background-position: 100% 50%;
-	}
+	// header{
+	// 	border-bottom: none;
+	// 	padding-bottom: 0;
+	// }
 
 
-	// PROJECT ELEMENTS
-	// ———————————————————————————————————————————
-
-	.sub-nav{
-		width: auto;
-		border-top: none;
-		padding-top: 0;
-		padding-left: 2.2em;
-
-		a, .sub-nav-title{
-			font-size: 1em;
-			display: inline-block;
-		}
-
-		a{
-			padding: 0;
-		}
-
-	}
-
-	.project-a{
-		text-decoration: none;
-	}
-
-	.project-container{
-		padding: 0 2em;
-	}
-
-	.banner-desc{
-		padding-left: 0;
-	}
-
-	.project-desc{
-		margin: 0 $gut-width 2em 0;
-	}
-
-	.image-double{
-		width: 40%;
-		margin-right: 15%;
-	}
-
-	.image-third{
-		width: 25%;
-		margin-right: 8%;
-	}
-
-	.desc-image{
-		margin: 2em auto 1em auto;
-	}
-
-	.portrait{
-		margin: 6% auto;
-		max-width: 600px;
-	}
-
-	.landscape{
-		margin: 10% auto;
-		max-width: 900px;
-	}
+	// //home page background
+	// .main-banner{
+	// 	background-position: right top;
+	// 	background-position: 100% 50%;
+	// }
 
 
-	// BLOG POST ELEMENTS
-	// ———————————————————————————————————————————
+	// // PROJECT ELEMENTS
+	// // ———————————————————————————————————————————
+
+	// .sub-nav{
+	// 	width: auto;
+	// 	border-top: none;
+	// 	padding-top: 0;
+	// 	padding-left: 2.2em;
+
+	// 	a, .sub-nav-title{
+	// 		font-size: 1em;
+	// 		display: inline-block;
+	// 	}
+
+	// 	a{
+	// 		padding: 0;
+	// 	}
+
+	// }
+
+	// .project-a{
+	// 	text-decoration: none;
+	// }
+
+	// .project-container{
+	// 	padding: 0 2em;
+	// }
+
+	// .banner-desc{
+	// 	padding-left: 0;
+	// }
+
+	// .project-desc{
+	// 	margin: 0 $gut-width 2em 0;
+	// }
+
+	// .image-double{
+	// 	width: 40%;
+	// 	margin-right: 15%;
+	// }
+
+	// .image-third{
+	// 	width: 25%;
+	// 	margin-right: 8%;
+	// }
+
+	// .desc-image{
+	// 	margin: 2em auto 1em auto;
+	// }
+
+	// .portrait{
+	// 	margin: 6% auto;
+	// 	max-width: 600px;
+	// }
+
+	// .landscape{
+	// 	margin: 10% auto;
+	// 	max-width: 900px;
+	// }
 
 
-	//about me page mobile "padding" (also used for blog posts)
-	.aboutme-page-container{
-		padding: 0;
-	}
+	// // BLOG POST ELEMENTS
+	// // ———————————————————————————————————————————
 
 
-	//about me title
-	.aboutme-page-title{
-		margin: 1em auto 1em 0;
-	}
+	// //about me page mobile "padding" (also used for blog posts)
+	// .aboutme-page-container{
+	// 	padding: 0;
+	// }
 
 
-	//blog post title
-	.blog-page-title{
-		width: 100%;
-		margin: 0 auto 1em auto;
-	}
+	// //about me title
+	// .aboutme-page-title{
+	// 	margin: 1em auto 1em 0;
+	// }
 
 
-	//blog posts size and width
-	.post-list{
+	// //blog post title
+	// .blog-page-title{
+	// 	width: 100%;
+	// 	margin: 0 auto 1em auto;
+	// }
 
-		li{
-			width: 40%;
-    		margin: 0 3% 2em 3%;
-		}
-	}
+
+	// //blog posts size and width
+	// .post-list{
+
+	// 	li{
+	// 		width: 40%;
+ //    		margin: 0 3% 2em 3%;
+	// 	}
+	// }
 
 }
 
@@ -323,66 +324,66 @@
 @media(min-width: 978px){
 	
 
-	// PROJECT ELEMENTS
-	// ———————————————————————————————————————————
+	// // PROJECT ELEMENTS
+	// // ———————————————————————————————————————————
 	
-	.project-banner{
-		padding-top: 2em;
-	}
+	// .project-banner{
+	// 	padding-top: 2em;
+	// }
 
-	.project-desc{
-		margin: 0 $gut-width 0 0;
+	// .project-desc{
+	// 	margin: 0 $gut-width 0 0;
 
-		img{
-			margin-top: 1em;
-			margin-bottom: 1em;
-		}
-	}
+	// 	img{
+	// 		margin-top: 1em;
+	// 		margin-bottom: 1em;
+	// 	}
+	// }
 
-	.desk-float{
-		float: left;
-		margin: 0 25px 0 0;
-	}
+	// .desk-float{
+	// 	float: left;
+	// 	margin: 0 25px 0 0;
+	// }
 
-	.desc-image{
-		margin: 2.5em auto 1.5em auto;
-	}
+	// .desc-image{
+	// 	margin: 2.5em auto 1.5em auto;
+	// }
 
-	.portrait{
-		margin: 5% auto;
-		max-width: 600px;
-	}
+	// .portrait{
+	// 	margin: 5% auto;
+	// 	max-width: 600px;
+	// }
 
-	.landscape{
-		margin: 8% auto;
-		max-width: 900px;
-	}
+	// .landscape{
+	// 	margin: 8% auto;
+	// 	max-width: 900px;
+	// }
 
-	.desk-tall{
-		max-width: 400px;
-	}
+	// .desk-tall{
+	// 	max-width: 400px;
+	// }
 
 
-	// BLOG POST ELEMENTS
-	// ———————————————————————————————————————————
+	// // BLOG POST ELEMENTS
+	// // ———————————————————————————————————————————
 
-	//blog posts size and width
-	.post-list{
+	// //blog posts size and width
+	// .post-list{
 
-		li{
-			width: 25%;
-    		margin: 0 3% 2em 3%;
-		}
-	}
+	// 	li{
+	// 		width: 25%;
+ //    		margin: 0 3% 2em 3%;
+	// 	}
+	// }
 
-	.double-image{
+	// .double-image{
 
-		img{
-			width: 45%;
-			margin: 0 2.5%;
-			margin-bottom: 2em;
-		}
-	}
+	// 	img{
+	// 		width: 45%;
+	// 		margin: 0 2.5%;
+	// 		margin-bottom: 2em;
+	// 	}
+	// }
 
 }
 

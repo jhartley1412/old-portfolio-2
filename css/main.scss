@@ -7,42 +7,56 @@
 // 		"blog-page";
 
 
-@import "variables-grid.scss";
+@import "variables-grid",
+		"breakpoints";
 
 
 // BASIC HTML STANDARDS
 
-body{
-	background-color: pink;
-}
+
 
 
 // FONTS AND TYPE
 
-p, h1, h2, h3{
-	font-family: 'Roboto', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+p, h1, h2{
+	font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 p{
 	font-size: 17px;
 }
 
-h1, h2, h3{
+h1, h2{
 	font-weight: 600;
 }
 
+h3{
+	// janinahartley Logo font/header
+	font-family: 'Dosis', 'Tahoma', 'Geneva', sans-serif;
+	font-weight: 300;
+}
+
+
+// COLORS AND SPAN CHANGES
+
+.pink-color{
+	color: $prime-color;
+}
 
 // MAIN CONTAINER
 
 header{
 	width: 100%;
-	height: 80px;
+	height: 30px;
 	background-color: #E0E0E0;
 }
 
 
 
-
+.test{
+	background-color: blue;
+	height: 100px;
+}
 
 
 
