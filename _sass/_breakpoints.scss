@@ -7,6 +7,9 @@
 
 @media(min-width: 300px){
 
+	.graphic-samples{
+		display: none;
+	}
 
 // 	h1{
 // 		font-size: 1.8em;
@@ -184,6 +187,7 @@
 
 @media(min-width: 420px){
 	
+	
 
 	// h1{
 	// 	font-size: 2.1em;
@@ -324,7 +328,10 @@
 @media(min-width: 978px){
 	
 	
-
+	.graphic-samples{
+		display: block;
+	}
+	
 	// // PROJECT ELEMENTS
 	// // ———————————————————————————————————————————
 	
