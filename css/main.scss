@@ -36,6 +36,11 @@ h3{
 	font-weight: 300;
 }
 
+a{
+	font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	text-decoration: none;
+}
+
 
 // COLORS AND SPAN CHANGES
 
@@ -54,11 +59,19 @@ header{
 
 	.logo{
 		float: left;
+		width: 40px;
+		margin: 0 1em 0 2em;
+
+		img{
+			width: 100%;
+		}
 	}
 
 	a{
 		float: left;
-		margin: 1.2em 1em;
+		font-size: 17px;
+		margin: 0.7em 1em;
+		color: #000;
 	}
 }
 

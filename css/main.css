@@ -388,6 +388,10 @@ h3 {
   font-family: 'Dosis', 'Tahoma', 'Geneva', sans-serif;
   font-weight: 300; }
 
+a {
+  font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  text-decoration: none; }
+
 .pink-color {
   color: #e8584e; }
 
@@ -398,10 +402,16 @@ header {
   background-color: #E0E0E0;
   overflow: hidden; }
   header .logo {
-    float: left; }
+    float: left;
+    width: 40px;
+    margin: 0 1em 0 2em; }
+    header .logo img {
+      width: 100%; }
   header a {
     float: left;
-    margin: 1.2em 1em; }
+    font-size: 17px;
+    margin: 0.7em 1em;
+    color: #000; }
 
 .test {
   background-color: blue;
