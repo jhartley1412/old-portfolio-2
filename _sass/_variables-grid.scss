@@ -89,12 +89,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 @media (min-width: 978px){
 
-  .phone-head-logo{
-    display: none;
-  }
-
-  .desktop-head-logo{
-    display: block;
+  h3{
+    color: blue;
   }
   
   .col-lg-1{
