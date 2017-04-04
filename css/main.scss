@@ -77,10 +77,27 @@ header{
 
 
 
-.test{
-	background-color: blue;
-	height: 100px;
-}
+// WORK SAMPLES	
+
+	.samples-container{
+		width: 99%;
+		margin: 0 auto;
+		overflow: hidden;
+		background-color: #B8C975;
+	}
+
+	.sample-ex{
+		width: 300px;
+		height: 180px;
+		background-color: #79A7B5;
+		margin: 1em auto;
+
+		&:hover{
+			cursor: pointer;
+			background-color: lighten(#79A7B5, 10%)
+		}
+
+	}
 
 
 

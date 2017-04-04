@@ -413,8 +413,19 @@ header {
     margin: 0.7em 1em;
     color: #000; }
 
-.test {
-  background-color: blue;
-  height: 100px; }
+.samples-container {
+  width: 99%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #B8C975; }
+
+.sample-ex {
+  width: 300px;
+  height: 180px;
+  background-color: #79A7B5;
+  margin: 1em auto; }
+  .sample-ex:hover {
+    cursor: pointer;
+    background-color: #9abdc7; }
 
 /*# sourceMappingURL=main.css.map */

@@ -88,10 +88,6 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 
 @media (min-width: 978px){
-
-  h3{
-    color: blue;
-  }
   
   .col-lg-1{
     @include grid(1);
