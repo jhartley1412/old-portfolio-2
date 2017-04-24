@@ -117,21 +117,22 @@
     	$(document).ready(function(){
 
     		// MOBILE SAMPLES TABS
-			$('.ui_tab').click(function(e){
-				$('.graphic_samples').hide();
-				$('.graphic_samples').removeClass('activated');
-
-				$('.ui_samples').show();
-				$('.ui_samples').addClass('activated');
-				e.preventDefault();
-			});
-
 			$('.graphic_tab').click(function(e){
 				$('.ui_samples').hide();
 				$('.ui_samples').removeClass('activated');
 
 				$('.graphic_samples').show();
 				$('.graphic_samples').addClass('activated');
+				e.preventDefault();
+			});
+
+
+			$('.ui_tab').click(function(e){
+				$('.graphic_samples').hide();
+				$('.graphic_samples').removeClass('activated');
+
+				$('.ui_samples').show();
+				$('.ui_samples').addClass('activated');
 				e.preventDefault();
 			});
 
