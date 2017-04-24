@@ -1,4 +1,37 @@
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1 {
+  width: 5.58333%; }
+
+.col-sm-2 {
+  width: 14.16667%; }
+
+.col-sm-3 {
+  width: 22.75%; }
+
+.col-sm-4 {
+  width: 31.33333%; }
+
+.col-sm-5 {
+  width: 39.91667%; }
+
+.col-sm-6 {
+  width: 48.5%; }
+
+.col-sm-7 {
+  width: 57.08333%; }
+
+.col-sm-8 {
+  width: 65.66667%; }
+
+.col-sm-9 {
+  width: 74.25%; }
+
+.col-sm-10 {
+  width: 82.83333%; }
+
+.col-sm-11 {
+  width: 91.41667%; }
+
+.col-sm-12 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -73,7 +106,40 @@
 
   .col-lg-12 {
     width: 100%; } }
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
+.col-sm-1 {
+  width: 5.58333%; }
+
+.col-sm-2 {
+  width: 14.16667%; }
+
+.col-sm-3 {
+  width: 22.75%; }
+
+.col-sm-4 {
+  width: 31.33333%; }
+
+.col-sm-5 {
+  width: 39.91667%; }
+
+.col-sm-6 {
+  width: 48.5%; }
+
+.col-sm-7 {
+  width: 57.08333%; }
+
+.col-sm-8 {
+  width: 65.66667%; }
+
+.col-sm-9 {
+  width: 74.25%; }
+
+.col-sm-10 {
+  width: 82.83333%; }
+
+.col-sm-11 {
+  width: 91.41667%; }
+
+.col-sm-12 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -158,6 +224,13 @@
     float: none; }
 
   .graphic_samples {
+    display: none; }
+
+  .bts_button {
+    float: none;
+    clear: both; }
+
+  .other_samples_container {
     display: none; } }
 @media (min-width: 420px) {
   .samples_container {
@@ -166,8 +239,17 @@
     float: left; }
 
   .graphic_samples {
+    display: block; }
+
+  .bts_button {
+    float: left;
+    clear: none; }
+
+  .other_samples_container {
     display: block; } }
 body {
+  max-width: 1412px;
+  margin: 0 auto;
   background-color: #e8584e; }
 
 p, h1, h2 {
@@ -193,6 +275,7 @@ a {
 header {
   width: 100%;
   height: 40px;
+  margin-bottom: 1em;
   padding: 5px 0;
   background-color: #E0E0E0;
   overflow: hidden; }
@@ -243,5 +326,22 @@ header {
   background-color: #E8A91D; }
   .graphic_samples .sample_ex:hover {
     background-color: #edbb4b; }
+
+.bts_button {
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+  background-color: #FEF6F6; }
+  .bts_button:hover {
+    cursor: pointer; }
+
+.case_study_container {
+  background-color: #FDDC28; }
+
+.other_samples_container {
+  float: left; }
+  .other_samples_container a {
+    padding: 0.5em 1em;
+    margin-bottom: 4em;
+    background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

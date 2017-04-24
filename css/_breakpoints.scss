@@ -21,6 +21,16 @@
 		display: none;
 	}
 
+
+	.bts_button{
+		float: none;
+		clear: both;
+	}
+
+	.other_samples_container{
+		display: none;
+	}
+
 // 	h1{
 // 		font-size: 1.8em;
 // 		margin-top: 0.2em;
@@ -204,6 +214,15 @@
 	}
 
 	.graphic_samples{
+		display: block;
+	}
+
+	.bts_button{
+		float: left;
+		clear: none;
+	}
+
+	.other_samples_container{
 		display: block;
 	}
 

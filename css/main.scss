@@ -14,6 +14,8 @@
 // BASIC HTML STANDARDS
 
 body{
+	max-width: 1412px;
+	margin: 0 auto;
 	background-color: $prime-color;
 }
 
@@ -55,6 +57,7 @@ a{
 header{
 	width: 100%;
 	height: 40px;
+	margin-bottom: 1em;
 	padding: 5px 0;
 	background-color: #E0E0E0;
 	overflow: hidden;
@@ -138,6 +141,34 @@ header{
 	}
 
 
+
+// CASE STUDY PAGES
+
+	.bts_button{
+		padding: 0.5em 1em;
+		box-sizing: border-box;
+		background-color: #FEF6F6;
+
+		&:hover{
+			cursor: pointer;
+		}
+	}
+
+	.case_study_container{
+		background-color: #FDDC28;
+	}
+
+	.other_samples_container{
+		float: left;
+
+		a{
+			padding: 0.5em 1em;
+			margin-bottom: 4em;
+			background-color: #fff;
+		}
+	}
+
+	
 
 
 // OLD CSS BELOW
