@@ -13,7 +13,9 @@
 
 // BASIC HTML STANDARDS
 
-
+body{
+	background-color: $prime-color;
+}
 
 
 // FONTS AND TYPE
@@ -94,14 +96,30 @@ header{
 	.sample-ex{
 		width: 300px;
 		height: 180px;
-		background-color: #79A7B5;
 		margin: 1em auto;
 
 		&:hover{
 			cursor: pointer;
-			background-color: lighten(#79A7B5, 10%)
 		}
 
+	}
+
+	.ui-samples{
+		.sample-ex{
+			background-color: #79A7B5;
+			&:hover{
+				background-color: lighten(#79A7B5, 10%)
+			}
+		}
+	}
+
+	.graphic-samples{
+		.sample-ex{
+			background-color: #E8A91D;
+			&:hover{
+				background-color: lighten(#E8A91D, 10%)
+			}
+		}
 	}
 
 
