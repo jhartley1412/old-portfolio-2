@@ -149,10 +149,23 @@
   .col-lg-12 {
     width: 100%; } }
 @media (min-width: 300px) {
-  .graphic-samples {
+  .samples_nav {
+    display: block; }
+
+  .samples_container {
+    width: 99%;
+    margin: 0 auto;
+    float: none; }
+
+  .graphic_samples {
     display: none; } }
 @media (min-width: 420px) {
-  .graphic-samples {
+  .samples_container {
+    width: 50%;
+    margin: 0 auto;
+    float: left; }
+
+  .graphic_samples {
     display: block; } }
 body {
   background-color: #e8584e; }
@@ -195,31 +208,40 @@ header {
     margin: 0.7em 1em;
     color: #000; }
 
-.all-samples-container {
+.all_samples_container {
   margin: 0 auto;
   overflow: hidden; }
 
-.samples-container {
-  width: 99%;
+.samples_nav a {
+  width: 50%;
   margin: 0 auto;
+  float: left;
+  text-align: center; }
+
+.activated {
+  background-color: #F7F7F7; }
+
+.samples_container {
   overflow: hidden;
   background-color: #B8C975; }
+  .samples_container h2 {
+    text-align: center; }
 
-.sample-ex {
+.sample_ex {
   width: 300px;
   height: 180px;
   margin: 1em auto; }
-  .sample-ex:hover {
+  .sample_ex:hover {
     cursor: pointer; }
 
-.ui-samples .sample-ex {
+.ui_samples .sample_ex {
   background-color: #79A7B5; }
-  .ui-samples .sample-ex:hover {
+  .ui_samples .sample_ex:hover {
     background-color: #9abdc7; }
 
-.graphic-samples .sample-ex {
+.graphic_samples .sample_ex {
   background-color: #E8A91D; }
-  .graphic-samples .sample-ex:hover {
+  .graphic_samples .sample_ex:hover {
     background-color: #edbb4b; }
 
 /*# sourceMappingURL=main.css.map */

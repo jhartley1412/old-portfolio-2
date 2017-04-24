@@ -7,7 +7,17 @@
 
 @media(min-width: 300px){
 	
-	.graphic-samples{
+	.samples_nav{
+		display: block;
+	}
+
+	.samples_container{
+		width: 99%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.graphic_samples{
 		display: none;
 	}
 
@@ -187,7 +197,13 @@
 
 @media(min-width: 420px){
 	
-	.graphic-samples{
+	.samples_container{
+		width: 50%;
+		margin: 0 auto;
+		float: left;
+	}
+
+	.graphic_samples{
 		display: block;
 	}
 

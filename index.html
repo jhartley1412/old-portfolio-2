@@ -66,31 +66,43 @@
 
     </header>
 
-    <div class="all-samples-container col-sm-1 col-md-12 col-lg-11">
+    <div class="all_samples_container col-sm-1 col-md-12 col-lg-11">
 
-	    <div class="ui-samples samples-container col-sm-1 col-md-5 col-lg- 5">
+	    <div class="samples_nav">
 
-	    	<div class="sample-ex"> </div>
+	    	<a href="#" class="activated ui_tab"> UI Design </a>
 
-	    	<div class="sample-ex"> </div>
-
-	    	<div class="sample-ex"> </div>
-
-	    	<div class="sample-ex"> </div>
-
-	    	<div class="sample-ex"> </div>
+	    	<a href="#" class="graphic_tab"> Graphic Design </a>
 
 	    </div>
 
-	    <div class="graphic-samples samples-container col-sm-1 col-md-5 col-lg- 5">
+	    <div class="ui_samples samples_container col-sm-1 col-md-5 col-lg- 5">
 
-	    	<div class="sample-ex"> </div>
+	    	<h2> UI Design </h2>
 
-	    	<div class="sample-ex"> </div>
+	    	<div class="sample_ex"> </div>
 
-	    	<div class="sample-ex"> </div>
+	    	<div class="sample_ex"> </div>
 
-	    	<div class="sample-ex"> </div>
+	    	<div class="sample_ex"> </div>
+
+	    	<div class="sample_ex"> </div>
+
+	    	<div class="sample_ex"> </div>
+
+	    </div>
+
+	    <div class="graphic_samples samples_container col-sm-1 col-md-5 col-lg- 5">
+
+	    	<h2> Graphic Design </h2>
+
+	    	<div class="sample_ex"> </div>
+
+	    	<div class="sample_ex"> </div>
+
+	    	<div class="sample_ex"> </div>
+
+	    	<div class="sample_ex"> </div>
 
 	    </div>
 
@@ -104,10 +116,27 @@
   	
     	$(document).ready(function(){
 
-    		
-    		
+    		// MOBILE SAMPLES TABS
+			$('.ui_tab').click(function(e){
+				$('.graphic_samples').hide();
+				$('.graphic_samples').removeClass('activated');
 
-    		
+				$('.ui_samples').show();
+				$('.ui_samples').addClass('activated');
+				e.preventDefault();
+			});
+
+			$('.graphic_tab').click(function(e){
+				$('.ui_samples').hide();
+				$('.ui_samples').removeClass('activated');
+
+				$('.graphic_samples').show();
+				$('.graphic_samples').addClass('activated');
+				e.preventDefault();
+			});
+
+
+
     	})
 
 	</script>
