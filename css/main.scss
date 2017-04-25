@@ -160,8 +160,9 @@ header{
 
 	.other_samples_container{
 		float: left;
+		overflow: hidden;
 
-		a{
+		.other_samples{
 			padding: 0.5em 1em;
 			margin-bottom: 4em;
 			background-color: #fff;

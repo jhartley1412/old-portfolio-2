@@ -230,6 +230,11 @@
     float: none;
     clear: both; }
 
+  .case_study_container {
+    float: none;
+    clear: both;
+    margin-top: 2em; }
+
   .other_samples_container {
     display: none; } }
 @media (min-width: 420px) {
@@ -244,6 +249,11 @@
   .bts_button {
     float: left;
     clear: none; }
+
+  .case_study_container {
+    float: left;
+    clear: none;
+    margin-top: 0; }
 
   .other_samples_container {
     display: block; } }
@@ -338,8 +348,9 @@ header {
   background-color: #FDDC28; }
 
 .other_samples_container {
-  float: left; }
-  .other_samples_container a {
+  float: left;
+  overflow: hidden; }
+  .other_samples_container .other_samples {
     padding: 0.5em 1em;
     margin-bottom: 4em;
     background-color: #fff; }

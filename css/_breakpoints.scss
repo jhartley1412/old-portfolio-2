@@ -27,6 +27,12 @@
 		clear: both;
 	}
 
+	.case_study_container{
+		float: none;
+		clear: both;
+		margin-top: 2em;
+	}
+
 	.other_samples_container{
 		display: none;
 	}
@@ -220,6 +226,12 @@
 	.bts_button{
 		float: left;
 		clear: none;
+	}
+
+	.case_study_container{
+		float: left;
+		clear: none;
+		margin-top: 0;
 	}
 
 	.other_samples_container{
