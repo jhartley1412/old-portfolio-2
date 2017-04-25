@@ -235,6 +235,11 @@
     clear: both;
     margin-top: 2em; }
 
+  .b_image {
+    margin: 0 auto;
+    clear: both;
+    margin: 1.5em auto; }
+
   .other_samples_container {
     display: none; } }
 @media (min-width: 420px) {
@@ -254,6 +259,13 @@
     float: left;
     clear: none;
     margin-top: 0; }
+    .case_study_container img:last-of-type {
+      margin-right: 0; }
+
+  .b_image {
+    clear: none;
+    float: left;
+    margin: 0 15% 0 0; }
 
   .other_samples_container {
     display: block; } }
@@ -343,6 +355,13 @@ header {
   background-color: #FEF6F6; }
   .bts_button:hover {
     cursor: pointer; }
+
+.project_banner {
+  width: 100%;
+  background-color: #fff; }
+
+.b_image {
+  display: block; }
 
 .case_study_container {
   background-color: #FDDC28; }

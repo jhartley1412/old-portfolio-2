@@ -33,6 +33,13 @@
 		margin-top: 2em;
 	}
 
+	//project minor (b) images
+	.b_image{
+		margin: 0 auto;
+		clear: both;
+		margin: 1.5em auto;
+	}
+
 	.other_samples_container{
 		display: none;
 	}
@@ -232,6 +239,18 @@
 		float: left;
 		clear: none;
 		margin-top: 0;
+
+		// makes it so the last image isn't pushed off
+		img:last-of-type{
+			margin-right: 0;
+		}
+	}
+
+	//project minor (b) images
+	.b_image{
+		clear: none;
+		float: left;
+		margin: 0 15% 0 0;
 	}
 
 	.other_samples_container{
