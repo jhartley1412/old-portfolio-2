@@ -22,8 +22,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 }
 
 
-// // MOBILE SIZE / DEFAULT
-// // ———————————————————————————————————————————
+// MOBILE SIZE / DEFAULT
+//———————————————————————————————————————————
 
 .col-sm-1{
   @include grid(1);
@@ -74,8 +74,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 }
 
 
-// // TABLET SIZE
-// // ———————————————————————————————————————————
+// TABLET SIZE
+//———————————————————————————————————————————
 
 @media (min-width: 420px){
   
@@ -131,8 +131,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 
 
-// // DESKTOP SIZE
-// // ———————————————————————————————————————————
+// DESKTOP SIZE
+//———————————————————————————————————————————
 
 @media (min-width: 978px){
   

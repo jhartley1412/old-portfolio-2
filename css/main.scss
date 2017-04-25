@@ -12,6 +12,7 @@
 
 
 // BASIC HTML STANDARDS
+//———————————————————————————————————————————
 
 body{
 	max-width: 1412px;
@@ -46,13 +47,18 @@ a{
 }
 
 
+
 // COLORS AND SPAN CHANGES
+//———————————————————————————————————————————
 
 .pink-color{
 	color: $prime-color;
 }
 
+
+
 // MAIN CONTAINER
+//———————————————————————————————————————————
 
 header{
 	width: 100%;
@@ -83,6 +89,7 @@ header{
 
 
 // WORK SAMPLES	
+//———————————————————————————————————————————
 
 	.all_samples_container{
 		margin: 0 auto;
@@ -143,7 +150,8 @@ header{
 
 
 // CASE STUDY PAGES
-	
+//———————————————————————————————————————————
+
 	// back to samples button
 	.bts_button{
 		padding: 0.5em 1em;
