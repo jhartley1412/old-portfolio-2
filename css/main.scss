@@ -20,8 +20,43 @@ body{
 	background-color: $prime-color;
 }
 
+header{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 1em;
+	padding: 5px 0 10px 0;
+	background-color: #fff;
+	overflow: hidden;
+	border-bottom: 1px solid #F7F7F7;
+
+	.logo{
+		float: left;
+
+		img{
+			width: 40px;
+			margin: 0 1em 0 2em;
+		}
+
+		h3{
+			margin: 0.5em 2em;
+		}
+	}
+
+	a{
+		float: left;
+		font-size: 17px;
+		margin: 0.7em 1em;
+		color: #000;
+	}
+}
+
+nav{
+	float: left;
+}
+
 
 // FONTS AND TYPE
+//———————————————————————————————————————————
 
 p, h1, h2{
 	font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
@@ -53,37 +88,6 @@ a{
 
 .pink-color{
 	color: $prime-color;
-}
-
-
-
-// MAIN CONTAINER
-//———————————————————————————————————————————
-
-header{
-	width: 100%;
-	height: 40px;
-	margin-bottom: 1em;
-	padding: 5px 0;
-	background-color: #E0E0E0;
-	overflow: hidden;
-
-	.logo{
-		float: left;
-		width: 40px;
-		margin: 0 1em 0 2em;
-
-		img{
-			width: 100%;
-		}
-	}
-
-	a{
-		float: left;
-		font-size: 17px;
-		margin: 0.7em 1em;
-		color: #000;
-	}
 }
 
 

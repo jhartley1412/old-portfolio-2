@@ -7,6 +7,14 @@
 
 @media(min-width: 300px){
 	
+	.mobile_logo{
+		display: block;
+	}
+
+	.desktop_logo{
+		display: none;
+	}
+
 	// mobile only navigation
 	.samples_nav{
 		display: block;
@@ -54,6 +62,14 @@
 
 @media(min-width: 420px){
 	
+	.mobile_logo{
+		display: none;
+	}
+
+	.desktop_logo{
+		display: block;
+	}
+
 	// mobile only navigation
 	.samples_nav{
 		display: none;
