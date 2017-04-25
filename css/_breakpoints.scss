@@ -7,6 +7,7 @@
 
 @media(min-width: 300px){
 	
+	// mobile only navigation
 	.samples_nav{
 		display: block;
 	}
@@ -220,6 +221,11 @@
 
 @media(min-width: 420px){
 	
+	// mobile only navigation
+	.samples_nav{
+		display: none;
+	}
+
 	.samples_container{
 		width: 50%;
 		margin: 0 auto;

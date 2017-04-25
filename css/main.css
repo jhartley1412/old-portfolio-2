@@ -243,6 +243,9 @@
   .other_samples_container {
     display: none; } }
 @media (min-width: 420px) {
+  .samples_nav {
+    display: none; }
+
   .samples_container {
     width: 50%;
     margin: 0 auto;
