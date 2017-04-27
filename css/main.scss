@@ -17,7 +17,6 @@
 body{
 	max-width: 1412px;
 	margin: 0 auto;
-	background-color: $prime-color;
 }
 
 header{
@@ -27,14 +26,14 @@ header{
 	padding: 5px 0 10px 0;
 	background-color: #fff;
 	overflow: hidden;
-	border-bottom: 1px solid #F7F7F7;
+	border-bottom: 2px solid #F7F7F7;
 
 	.logo{
 		float: left;
 
 		img{
 			width: 40px;
-			margin: 0 1em 0 2em;
+			margin: 0 1em;
 		}
 
 		h3{
@@ -45,7 +44,6 @@ header{
 	a{
 		float: left;
 		font-size: 17px;
-		margin: 0.7em 1em;
 		color: #000;
 	}
 }
@@ -115,7 +113,6 @@ a{
 
 	.samples_container{
 		overflow: hidden;
-		background-color: #B8C975;
 
 		h2{
 			text-align: center;
@@ -170,16 +167,11 @@ a{
 	// project main image
 	.project_banner{
 		width: 100%;
-		background-color: #fff;
 	}
 
 	//project minor (b) images
 	.b_image{
 		display: block;
-	}
-
-	.case_study_container{
-		background-color: #FDDC28;
 	}
 
 	.other_samples_container{
