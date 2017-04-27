@@ -84,7 +84,7 @@
 
 	    	<h2> UI Design </h2>
 
-	    	<div class="sample_ex"> </div>
+	    	<div class="sample_ex ui_sample_one"> </div>
 
 	    	<div class="sample_ex"> </div>
 
@@ -100,7 +100,7 @@
 
 	    	<h2> Text </h2>
 
-	    	<div class="sample_text ui_text"> 
+	    	<div class="sample_text ui_text ui_text_one"> 
 
 	    		<h3> Project #1 </h3>
 
@@ -108,7 +108,7 @@
 
 	    	</div>
 
-	    	<div class="sample_text graphic_text"> 
+	    	<div class="sample_text graphic_text graphic_text_one"> 
 
 	    		<h3> Project #1 </h3>
 
@@ -124,7 +124,7 @@
 
 	    	<h2> Graphic Design </h2>
 
-	    	<div class="sample_ex"> </div>
+	    	<div class="sample_ex graphic_sample_one"> </div>
 
 	    	<div class="sample_ex"> </div>
 
@@ -164,6 +164,33 @@
 				e.preventDefault();
 			});
 
+
+			// PROJECT HOVER EFFECTS
+			$(function(){
+
+				$('.ui_sample_one').hover(
+					function(){
+						$('.ui_text_one').show();
+					},
+
+					function(){
+						$('.ui_text_one').hide();
+					});
+
+			});
+
+			$(function(){
+
+				$('.graphic_sample_one').hover(
+					function(){
+						$('.graphic_text_one').show();
+					},
+
+					function(){
+						$('.graphic_text_one').hide();
+					});
+
+			});
 
 
     	})
