@@ -39,17 +39,23 @@ header{
 		h3{
 			margin: 0.5em 2em;
 		}
+
+		a{
+			float: left;
+			font-size: 17px;
+			color: #000;
+		}
 	}
+}
+
+nav{
+	float: left;
 
 	a{
 		float: left;
 		font-size: 17px;
 		color: #000;
 	}
-}
-
-nav{
-	float: left;
 }
 
 
@@ -88,6 +94,9 @@ a{
 	color: $prime-color;
 }
 
+.underlined{
+	text-decoration: underline;
+}
 
 
 // WORK SAMPLES	

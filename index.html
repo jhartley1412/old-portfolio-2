@@ -50,15 +50,19 @@
     	
     	<div class="logo">
 
-    		<img src="./images/logo-favicon.png" class="phone-head-logo">
+    		<a href="./index.html" class="mobile_logo">
+    			<img src="./images/logo-favicon.png">
+			</a>
     		
-    		<!-- <h3 class="desktop-head-logo"> janina<span class="pink-color">hartley</span> </h3>
- -->
+    		<a href="./index.html" class="desktop_logo">
+    			<h3> janina<span class="pink-color">hartley</span> </h3>
+    		</a>
+
     	</div>
 
     	<nav>
 
-    		<a href="#"> Work Samples </a>
+    		<a href="./projects.html"> Work Samples </a>
 
     		<a href="#"> Contact Me </a>
 
@@ -66,81 +70,9 @@
 
     </header>
 
-    <div class="all_samples_container col-sm-12 col-md-12 col-lg-11">
+    <h1> Welcome to my portfolio </h1>
+    <h2>I am a UI and web designer, currently living in Austin, TX. </h2>
 
-	    <div class="samples_nav">
-
-	    	<a href="#" class="activated ui_tab"> UI Design </a>
-
-	    	<a href="#" class="graphic_tab"> Graphic Design </a>
-
-	    </div>
-
-	    <div class="ui_samples samples_container col-sm-12 col-md-5 col-lg- 5">
-
-	    	<h2> UI Design </h2>
-
-	    	<div class="sample_ex"> </div>
-
-	    	<div class="sample_ex"> </div>
-
-	    	<div class="sample_ex"> </div>
-
-	    	<div class="sample_ex"> </div>
-
-	    	<div class="sample_ex"> </div>
-
-	    </div>
-
-	    <div class="graphic_samples samples_container col-sm-12 col-md-5 col-lg- 5">
-
-	    	<h2> Graphic Design </h2>
-
-	    	<div class="sample_ex"> </div>
-
-	    	<div class="sample_ex"> </div>
-
-	    	<div class="sample_ex"> </div>
-
-	    	<div class="sample_ex"> </div>
-
-	    </div>
-
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-
-
-    <!-- JQUERY -->
-    <script>
-  	
-    	$(document).ready(function(){
-
-    		// MOBILE SAMPLES TABS
-			$('.graphic_tab').click(function(e){
-				$('.ui_samples').hide();
-				$('.ui_tab').removeClass('activated');
-
-				$('.graphic_samples').show();
-				$('.graphic_tab').addClass('activated');
-				e.preventDefault();
-			});
-
-
-			$('.ui_tab').click(function(e){
-				$('.graphic_samples').hide();
-				$('.graphic_tab').removeClass('activated');
-
-				$('.ui_samples').show();
-				$('.ui_tab').addClass('activated');
-				e.preventDefault();
-			});
-
-
-
-    	})
-
-	</script>
 
 </body>
 

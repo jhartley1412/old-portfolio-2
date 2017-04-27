@@ -15,7 +15,13 @@
 		display: none;
 	}
 
-	// mobile only navigation
+	nav{
+		a{
+			margin: 0.8em 1em 0 0;
+		}
+	}
+
+	// mobile only project navigation
 	.samples_nav{
 		display: block;
 	}
@@ -70,7 +76,13 @@
 		display: block;
 	}
 
-	// mobile only navigation
+	nav{
+		a{
+			margin: 0.8em 1.5em 0 0.5em;
+		}
+	}
+
+	// mobile only projects navigation
 	.samples_nav{
 		display: none;
 	}
