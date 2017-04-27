@@ -15,6 +15,10 @@
 		display: none;
 	}
 
+	.samples_text{
+		display: none;
+	}
+
 	nav{
 		a{
 			margin: 0.8em 1em 0 0;
@@ -27,7 +31,6 @@
 	}
 
 	.samples_container{
-		width: 99%;
 		margin: 0 auto;
 		float: none;
 	}
@@ -76,6 +79,10 @@
 		display: block;
 	}
 
+	.samples_text{
+		display: block;
+	}
+
 	nav{
 		a{
 			margin: 0.8em 1.5em 0 0.5em;
@@ -88,7 +95,6 @@
 	}
 
 	.samples_container{
-		width: 50%;
 		margin: 0 auto;
 		float: left;
 	}
