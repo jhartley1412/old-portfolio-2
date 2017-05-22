@@ -274,7 +274,8 @@
     float: left; }
 
   .graphic_samples {
-    display: block; }
+    display: block;
+    float: right; }
 
   .bts_button {
     float: left;
@@ -400,6 +401,12 @@ a {
 .graphic_text {
   float: right;
   text-align: right; }
+
+#blank_sample {
+  width: 300px;
+  height: 180px;
+  background-color: #fff;
+  float: left; }
 
 .bts_button {
   padding: 0.5em 1em;
