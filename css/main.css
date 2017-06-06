@@ -418,6 +418,10 @@ a {
   .bts_button:hover {
     cursor: pointer; }
 
+.project_banner {
+  margin: 0 auto;
+  display: block; }
+
 .b_image {
   display: block; }
 
