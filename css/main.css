@@ -352,6 +352,9 @@ a {
 .show_content {
   display: block; }
 
+.clear {
+  float: clear; }
+
 .all_samples_container {
   margin: 0 auto;
   overflow: hidden; }
