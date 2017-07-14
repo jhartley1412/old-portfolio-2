@@ -1,48 +1,436 @@
-/*
-Error: Invalid CSS after "		"blog-page"": expected "{", was ";"
-        on line 10 of main.scss
+.col-sm-1 {
+  width: 5.58333%; }
 
-5: 
-6: @import "variables-grid",
-7: 		"breakpoints",
-8: 		"home-page",
-9: 		"projects",
-10: 		"blog-page";
-11: 
-12: 
-13: .construction{
-14: 	font-size: 1.3em;
-15: }
+.col-sm-2 {
+  width: 14.16667%; }
 
-Backtrace:
-main.scss:10
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"		\"blog-page\"\": expected \"{\", was \";\"\A         on line 10 of main.scss\A \A 5: \A 6: @import \"variables-grid\",\A 7: 		\"breakpoints\",\A 8: 		\"home-page\",\A 9: 		\"projects\",\A 10: 		\"blog-page\";\A 11: \A 12: \A 13: .construction{\A 14: 	font-size: 1.3em;\A 15: }"; }
+.col-sm-3 {
+  width: 22.75%; }
+
+.col-sm-4 {
+  width: 31.33333%; }
+
+.col-sm-5 {
+  width: 39.91667%; }
+
+.col-sm-6 {
+  width: 48.5%; }
+
+.col-sm-7 {
+  width: 57.08333%; }
+
+.col-sm-8 {
+  width: 65.66667%; }
+
+.col-sm-9 {
+  width: 74.25%; }
+
+.col-sm-10 {
+  width: 82.83333%; }
+
+.col-sm-11 {
+  width: 91.41667%; }
+
+.col-sm-12 {
+  width: 100%; }
+
+@media (min-width: 420px) {
+  .col-md-1 {
+    width: 5.58333%; }
+
+  .col-md-2 {
+    width: 14.16667%; }
+
+  .col-md-3 {
+    width: 22.75%; }
+
+  .col-md-4 {
+    width: 31.33333%; }
+
+  .col-md-5 {
+    width: 39.91667%; }
+
+  .col-md-6 {
+    width: 48.5%; }
+
+  .col-md-7 {
+    width: 57.08333%; }
+
+  .col-md-8 {
+    width: 65.66667%; }
+
+  .col-md-9 {
+    width: 74.25%; }
+
+  .col-md-10 {
+    width: 82.83333%; }
+
+  .col-md-11 {
+    width: 91.41667%; }
+
+  .col-md-12 {
+    width: 100%; } }
+@media (min-width: 978px) {
+  .col-lg-1 {
+    width: 5.58333%; }
+
+  .col-lg-2 {
+    width: 14.16667%; }
+
+  .col-lg-3 {
+    width: 22.75%; }
+
+  .col-lg-4 {
+    width: 31.33333%; }
+
+  .col-lg-5 {
+    width: 39.91667%; }
+
+  .col-lg-6 {
+    width: 48.5%; }
+
+  .col-lg-7 {
+    width: 57.08333%; }
+
+  .col-lg-8 {
+    width: 65.66667%; }
+
+  .col-lg-9 {
+    width: 74.25%; }
+
+  .col-lg-10 {
+    width: 82.83333%; }
+
+  .col-lg-11 {
+    width: 91.41667%; }
+
+  .col-lg-12 {
+    width: 100%; } }
+.col-sm-1 {
+  width: 5.58333%; }
+
+.col-sm-2 {
+  width: 14.16667%; }
+
+.col-sm-3 {
+  width: 22.75%; }
+
+.col-sm-4 {
+  width: 31.33333%; }
+
+.col-sm-5 {
+  width: 39.91667%; }
+
+.col-sm-6 {
+  width: 48.5%; }
+
+.col-sm-7 {
+  width: 57.08333%; }
+
+.col-sm-8 {
+  width: 65.66667%; }
+
+.col-sm-9 {
+  width: 74.25%; }
+
+.col-sm-10 {
+  width: 82.83333%; }
+
+.col-sm-11 {
+  width: 91.41667%; }
+
+.col-sm-12 {
+  width: 100%; }
+
+@media (min-width: 420px) {
+  .col-md-1 {
+    width: 5.58333%; }
+
+  .col-md-2 {
+    width: 14.16667%; }
+
+  .col-md-3 {
+    width: 22.75%; }
+
+  .col-md-4 {
+    width: 31.33333%; }
+
+  .col-md-5 {
+    width: 39.91667%; }
+
+  .col-md-6 {
+    width: 48.5%; }
+
+  .col-md-7 {
+    width: 57.08333%; }
+
+  .col-md-8 {
+    width: 65.66667%; }
+
+  .col-md-9 {
+    width: 74.25%; }
+
+  .col-md-10 {
+    width: 82.83333%; }
+
+  .col-md-11 {
+    width: 91.41667%; }
+
+  .col-md-12 {
+    width: 100%; } }
+@media (min-width: 978px) {
+  .col-lg-1 {
+    width: 5.58333%; }
+
+  .col-lg-2 {
+    width: 14.16667%; }
+
+  .col-lg-3 {
+    width: 22.75%; }
+
+  .col-lg-4 {
+    width: 31.33333%; }
+
+  .col-lg-5 {
+    width: 39.91667%; }
+
+  .col-lg-6 {
+    width: 48.5%; }
+
+  .col-lg-7 {
+    width: 57.08333%; }
+
+  .col-lg-8 {
+    width: 65.66667%; }
+
+  .col-lg-9 {
+    width: 74.25%; }
+
+  .col-lg-10 {
+    width: 82.83333%; }
+
+  .col-lg-11 {
+    width: 91.41667%; }
+
+  .col-lg-12 {
+    width: 100%; } }
+@media (min-width: 300px) {
+  .mobile_logo {
+    display: block; }
+
+  .desktop_logo {
+    display: none; }
+
+  .samples_text {
+    display: none; }
+
+  nav a {
+    margin: 0.8em 1em 0 0; }
+
+  .samples_nav {
+    display: block; }
+
+  .samples_container {
+    margin: 0 auto;
+    float: none; }
+
+  .graphic_samples {
+    display: none; }
+
+  .bts_button {
+    float: none;
+    clear: both; }
+
+  .case_study_container {
+    float: none;
+    clear: both;
+    margin-top: 2em; }
+
+  .b_image {
+    margin: 0 auto;
+    clear: both;
+    margin: 1.5em auto; }
+
+  .other_samples_container {
+    display: none; } }
+@media (min-width: 420px) {
+  .mobile_logo {
+    display: none; }
+
+  .desktop_logo {
+    display: block; }
+
+  .samples_text {
+    display: block; }
+
+  nav a {
+    margin: 0.8em 1.5em 0 0.5em; }
+
+  .samples_nav {
+    display: none; }
+
+  .samples_container {
+    margin: 0 auto;
+    float: left; }
+
+  .graphic_samples {
+    display: block;
+    float: right; }
+
+  .bts_button {
+    float: left;
+    clear: none; }
+
+  .case_study_container {
+    float: left;
+    clear: none;
+    margin-top: 0; }
+    .case_study_container img:last-of-type {
+      margin-right: 0; }
+
+  .b_image {
+    clear: none;
+    float: left;
+    margin: 0 15% 0 0; }
+
+  .other_samples_container {
+    display: block; } }
+body {
+  max-width: 1412px;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 1em;
+  padding: 5px 0 10px 0;
+  background-color: #fff;
+  overflow: hidden;
+  border-bottom: 2px solid #F7F7F7; }
+  header .logo {
+    float: left; }
+    header .logo img {
+      width: 40px;
+      margin: 0 1em; }
+    header .logo h3 {
+      margin: 0.5em 2em; }
+    header .logo a {
+      float: left;
+      font-size: 17px;
+      color: #000; }
+
+nav {
+  float: left; }
+  nav a {
+    float: left;
+    font-size: 17px;
+    color: #000; }
+
+p, h1, h2 {
+  font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; }
+
+p {
+  font-size: 17px; }
+
+h1, h2 {
+  font-weight: 600; }
+
+h3 {
+  font-family: 'Dosis', 'Tahoma', 'Geneva', sans-serif;
+  font-weight: 300; }
+
+a {
+  font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  text-decoration: none; }
+
+.pink-color {
+  color: #e8584e; }
+
+.underlined {
+  text-decoration: underline; }
+
+.show_content {
+  display: block; }
+
+.clear {
+  float: clear; }
+
+.all_samples_container {
+  margin: 0 auto;
+  overflow: hidden; }
+
+.samples_nav a {
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+  text-align: center; }
+
+.activated {
+  background-color: #F7F7F7; }
+
+.samples_container {
+  overflow: hidden; }
+  .samples_container h2 {
+    text-align: center; }
+
+.sample_ex {
+  width: 300px;
+  height: 180px;
+  margin: 1em auto; }
+  .sample_ex:hover {
+    cursor: pointer; }
+
+.ui_samples .sample_ex {
+  background-color: #79A7B5; }
+  .ui_samples .sample_ex:hover {
+    background-color: #9abdc7; }
+
+.graphic_samples .sample_ex {
+  background-color: #E8A91D; }
+  .graphic_samples .sample_ex:hover {
+    background-color: #edbb4b; }
+
+.samples_text .sample_text {
+  width: 300px;
+  height: 180px;
+  margin: 1em auto;
+  box-sizing: border-box;
+  display: none; }
+
+.ui_text {
+  float: left;
+  text-align: left; }
+
+.graphic_text {
+  float: right;
+  text-align: right; }
+
+#blank_sample {
+  width: 300px;
+  height: 180px;
+  background-color: #fff;
+  float: left; }
+
+.bts_button {
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+  background-color: #FEF6F6; }
+  .bts_button:hover {
+    cursor: pointer; }
+
+.project_banner {
+  margin: 0 auto;
+  display: block; }
+
+.b_image {
+  display: block; }
+
+.other_samples_container {
+  float: left;
+  overflow: hidden; }
+  .other_samples_container .other_samples {
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    background-color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

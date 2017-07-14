@@ -62,7 +62,7 @@
 
     	<nav>
 
-    		<a href="./projects.html" class="underlined"> Work Samples </a>
+    		<a href="./projects.html"> Work Samples </a>
 
     		<a href="#"> Contact Me </a>
 
@@ -70,40 +70,61 @@
 
     </header>
 
-    <div class="all_samples_container col-sm-12 col-md-12 col-lg-10">
+    <a href="./projects.html" class="bts_button col-sm-5 col-md-2 col-lg-2"> Back to Samples </a>
 
-	    <div class="samples_nav">
+    <div class="case_study_container col-sm-12 col-md-8 col-lg-8">
 
-	    	<a href="#" class="activated ui_tab"> UI Design </a>
+	    <div class="project_overview">
 
-	    	<a href="#" class="graphic_tab"> Graphic Design </a>
+	    	<img class="project_banner col-sm-12 col-md-12 col-lg-12" src="./images/two-desktops.jpg">
+
+	    	<h2> Project #1 </h2>
+
+	    	<p> This is placeholder text. Woo. Project and UI stuff and vocab about design and maybe some information about the project. But probably mostly words that explain the company or the brand or something that'll get people to think it's some high-end fancy work I'm doing, plz hire me. </p>
+
+	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe1.png">
+
+	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe2.png">
+
+	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe3.png">
+
+	    	<p> And then there are more words! It's like woah, a lot of typing or something I tell you hwat. I guess this is more descriptions of what my process was or something. It's got to be short and sweet but also professional, but like, fuse that right? </p>
+
+	    </div>
+
+	    <div class="project_overview">
+
+	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe1.png">
+
+	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe2.png">
+
+	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe3.png">
+
+	    	<p> And then there are more words! It's like woah, a lot of typing or something I tell you hwat. I guess this is more descriptions of what my process was or something. It's got to be short and sweet but also professional, but like, fuse that right? </p>
 
 	    </div>
 
-	    <div class="ui_samples samples_container col-sm-12 col-md-6 col-lg-6">
+    </div>
 
-	    	<h2> UI Design </h2>
+    <div class="other_samples_container col-md-2 col-lg-2">
 
-	    	<a href="./levelup.html"> <div class="sample_ex ui_sample_one"> </div> </a>
+   		<h3> Other UI Projects </h3>
 
-	    	<a href="./historyrun.html"> <div class="sample_ex ui_sample_two"> </div> </a>
+   		<a href="#">
+   			<div class="other_samples"> Project # 2 </div>
+   		</a>
 
-	    	<a href="./recsports.html"> <div class="sample_ex ui_sample_two"> </div> </a>
+   		<a href="#">
+   			<div class="other_samples"> Project # 3 </div>
+   		</a>
 
-	    </div>
+   		<a href="#">
+   			<div class="other_samples"> Project # 4 </div>
+   		</a>
 
-
-	    <div class="graphic_samples samples_container col-sm-12 col-md-6 col-lg-6">
-
-	    	<h2> Graphic Design </h2>
-
-	    	<a href="./cities.html"> <div class="sample_ex graphic_sample_one"> </div> </a>
-
-	    	<a href="./nectar-root.html"> <div class="sample_ex graphic_sample_two"> </div> </a>
-
-	    	<a href="./vantage-one.html"> <div class="sample_ex"> </div> </a>
-
-	    </div>
+   		<a href="#">
+   			<div class="other_samples"> Project # 5 </div>
+   		</a>
 
     </div>
 
@@ -135,62 +156,6 @@
 				e.preventDefault();
 			});
 
-
-			// PROJECT HOVER EFFECTS
-			$(function(){
-
-				$('.ui_sample_one').hover(
-					function(){
-						$('.ui_text_one').show();
-					},
-
-					function(){
-						$('.ui_text_one').hide();
-					});
-
-			});
-
-			$(function(){
-
-				$('.graphic_sample_one').hover(
-					function(){
-						$('.graphic_text_one').show();
-					},
-
-					function(){
-						$('.graphic_text_one').hide();
-					});
-
-			});
-
-
-
-			$(function(){
-
-				$('.ui_sample_two').hover(
-					function(){
-						$('.ui_sample_two').after(document.createElement("#blank_sample"));
-						$('.ui_text_two').show();
-					},
-
-					function(){
-						$('.ui_text_two').hide();
-					});
-
-			});
-
-			$(function(){
-
-				$('.graphic_sample_two').hover(
-					function(){
-						$('.graphic_text_two').show();
-					},
-
-					function(){
-						$('.graphic_text_two').hide();
-					});
-
-			});
 
 
     	})
