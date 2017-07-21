@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+
+    <!-- JQUERY -->
+    <script>
+  	
+    	$(document).ready(function(){
+
+    		// MOBILE SAMPLES TABS
+			$('.graphic_tab').click(function(e){
+				$('.ui_samples').hide();
+				$('.ui_tab').removeClass('activated');
+
+				$('.graphic_samples').show();
+				$('.graphic_tab').addClass('activated');
+				e.preventDefault();
+			});
+
+
+			$('.ui_tab').click(function(e){
+				$('.graphic_samples').hide();
+				$('.graphic_tab').removeClass('activated');
+
+				$('.ui_samples').show();
+				$('.ui_tab').addClass('activated');
+				e.preventDefault();
+			});
+
+    	});	// MOBILE SAMPLES TABS FUNCTION END
+
+
+	</script>
+
+  </body>
+
+</html>

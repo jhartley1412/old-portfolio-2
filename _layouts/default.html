@@ -5,6 +5,16 @@
 
   <body>
 
+  	<div class="lightbox">
+
+	  <div class="lightbox-content">
+
+	    <img class="#" src="#"/>
+
+	  </div>
+
+	</div>
+
     {% include header.html %}
 
     <div class="page-content">
@@ -12,6 +22,86 @@
         {{ content }}
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+
+    <!-- JQUERY -->
+    <script>
+  	
+    	$(document).ready(function(){
+
+    		// MOBILE SAMPLES TABS
+			$('.graphic_tab').click(function(e){
+				$('.ui_samples').hide();
+				$('.ui_tab').removeClass('activated');
+
+				$('.graphic_samples').show();
+				$('.graphic_tab').addClass('activated');
+				e.preventDefault();
+			});
+
+
+			$('.ui_tab').click(function(e){
+				$('.graphic_samples').hide();
+				$('.graphic_tab').removeClass('activated');
+
+				$('.ui_samples').show();
+				$('.ui_tab').addClass('activated');
+				e.preventDefault();
+			});
+
+    	});	// MOBILE SAMPLES TABS FUNCTION END
+
+
+    	$(document).ready(function(){
+    		// LIGHTBOX STUFF
+
+
+    		//LIGHTBOX ACTIVATION
+    		$('.lightbox-trigger').click(function(e){
+    			e.preventDefault();
+ 
+        		var image_href = $(this).attr("href");
+        		var image_class = $(this).attr("class");
+   
+    			// if the lightbox shares the class of landscape, give it landscape
+		        if ($('.lightbox-trigger').hasClass("landscape")){
+					
+					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+					
+					$('.lightbox').show();
+
+				} // string code landscape if end
+
+
+
+				// if the lightbox shares the class of portrait, give it portrait
+      			if ($('.lightbox-trigger').hasClass("portrait")){
+      				
+      				$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+        			$('.lightbox').show();
+  				}
+
+
+			}); // LIGHTBOX ACTIVATION END
+
+
+
+    		//LIGHTBOX DEACTIVATION
+    		$('.lightbox').click(function(e){
+
+    			$('.lightbox').hide();
+
+    		}); // LIGHTBOX DEACTIVATION END
+
+
+    		
+    	});	// LIGHTBOX FUNCTION END
+
+
+	</script>
 
   </body>
 

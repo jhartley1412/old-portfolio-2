@@ -44,74 +44,38 @@
 
 </head>
 
-
   <body>
+
+  	<div class="lightbox">
+
+	  <div class="lightbox-content">
+
+	    <img class="#" src="#"/>
+
+	  </div>
+
+	</div>
 
     <header>
 
-  <nav>
+  <div class="logo">
 
-    <a href="/index.html" class="header-logo">
-      <h2>janina<span class="black-text">hartley</span> </h2>
+    <a href="./index.html" class="mobile_logo">
+      <img src="./images/logo-favicon.png">
     </a>
 
-    <div class="trigger">
+    <a href="./index.html" class="desktop_logo">
+      <h3> janina<span class="pink-color">hartley</span> </h3>
+    </a>
 
-      <!-- UI DESIGN -->
+  </div>
 
-      
+  <nav>
 
-        <span>
+    <a href="./projects.html"> Work Samples </a>
 
-      
+    <a href="#"> Contact Me </a>
 
-        <a href="/level-up-learning/"> UI Design </a>
-      </span>
-
-
-
-
-      <!-- GRAPHIC DESIGN -->
-
-      
-
-        <span>
-
-      
-
-        <a href="/cities/"> Graphic Design </a>
-      </span>
-
-
-
-
-      <!-- BLOG -->
-
-      
-
-        <span>
-
-      
-
-        <a href="/blog/"> Blog </a>
-      </span>
-
-
-
-
-      <!-- ABOUT ME -->
-
-      
-
-        <span>
-
-      
-
-        <a href="/about-me/"> About Me </a>
-      </span>
-
-    </div>
-    
   </nav>
 
 </header>
@@ -151,6 +115,86 @@
 
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+
+    <!-- JQUERY -->
+    <script>
+  	
+    	$(document).ready(function(){
+
+    		// MOBILE SAMPLES TABS
+			$('.graphic_tab').click(function(e){
+				$('.ui_samples').hide();
+				$('.ui_tab').removeClass('activated');
+
+				$('.graphic_samples').show();
+				$('.graphic_tab').addClass('activated');
+				e.preventDefault();
+			});
+
+
+			$('.ui_tab').click(function(e){
+				$('.graphic_samples').hide();
+				$('.graphic_tab').removeClass('activated');
+
+				$('.ui_samples').show();
+				$('.ui_tab').addClass('activated');
+				e.preventDefault();
+			});
+
+    	});	// MOBILE SAMPLES TABS FUNCTION END
+
+
+    	$(document).ready(function(){
+    		// LIGHTBOX STUFF
+
+
+    		//LIGHTBOX ACTIVATION
+    		$('.lightbox-trigger').click(function(e){
+    			e.preventDefault();
+ 
+        		var image_href = $(this).attr("href");
+        		var image_class = $(this).attr("class");
+   
+    			// if the lightbox shares the class of landscape, give it landscape
+		        if ($('.lightbox-trigger').hasClass("landscape")){
+					
+					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+					
+					$('.lightbox').show();
+
+				} // string code landscape if end
+
+
+
+				// if the lightbox shares the class of portrait, give it portrait
+      			if ($('.lightbox-trigger').hasClass("portrait")){
+      				
+      				$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+        			$('.lightbox').show();
+  				}
+
+
+			}); // LIGHTBOX ACTIVATION END
+
+
+
+    		//LIGHTBOX DEACTIVATION
+    		$('.lightbox').click(function(e){
+
+    			$('.lightbox').hide();
+
+    		}); // LIGHTBOX DEACTIVATION END
+
+
+    		
+    	});	// LIGHTBOX FUNCTION END
+
+
+	</script>
 
   </body>
 

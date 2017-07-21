@@ -1,131 +1,26 @@
 <!DOCTYPE html>
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Home Page</title>
-	<meta name="description" content="">
-
-	<!-- @charset "UTF-8"; BS -->
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-
-
-	<!-- PHONE META TAG -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- FAVICON -->
-	<link rel="shortcut icon" type="image/png" href="/images/logo-favicon.png">
-
-	<!-- GOOGLEFONTS -->
-	<link href='https://fonts.googleapis.com/css?family=Dosis:400,300|Exo+2:700|Roboto' rel='stylesheet' type='text/css'>
-
-	<!-- NORMALIZE -->
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
-
-
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-
-	<!-- GOOGLE ANALYTICS -->
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-77018143-1', 'auto');
-	ga('send', 'pageview');
-
-	</script>
-
-</head>
-
-
 <html>
 
-<body>
+  {% include head.html %}
 
-    <header>
-    	
-    	<div class="logo">
+  <body>
 
-    		<a href="./index.html" class="mobile_logo">
-    			<img src="./images/logo-favicon.png">
-			</a>
-    		
-    		<a href="./index.html" class="desktop_logo">
-    			<h3> janina<span class="pink-color">hartley</span> </h3>
-    		</a>
+  	<div class="lightbox">
 
-    	</div>
+	  <div class="lightbox-content">
 
-    	<nav>
+	    <img class="#" src="#"/>
 
-    		<a href="./projects.html"> Work Samples </a>
+	  </div>
 
-    		<a href="#"> Contact Me </a>
+	</div>
 
-    	</nav>
+    {% include header.html %}
 
-    </header>
-
-    <a href="./projects.html" class="bts_button col-sm-5 col-md-2 col-lg-2"> Back to Samples </a>
-
-    <div class="case_study_container col-sm-12 col-md-8 col-lg-8">
-
-	    <div class="project_overview">
-
-	    	<img class="project_banner col-sm-12 col-md-12 col-lg-12" src="./images/two-desktops.jpg">
-
-	    	<h2> Project #1 </h2>
-
-	    	<p> This is placeholder text. Woo. Project and UI stuff and vocab about design and maybe some information about the project. But probably mostly words that explain the company or the brand or something that'll get people to think it's some high-end fancy work I'm doing, plz hire me. </p>
-
-	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe1.png">
-
-	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe2.png">
-
-	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe3.png">
-
-	    	<p> And then there are more words! It's like woah, a lot of typing or something I tell you hwat. I guess this is more descriptions of what my process was or something. It's got to be short and sweet but also professional, but like, fuse that right? </p>
-
-	    </div>
-
-	    <div class="project_overview">
-
-	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe1.png">
-
-	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe2.png">
-
-	    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe3.png">
-
-	    	<p> And then there are more words! It's like woah, a lot of typing or something I tell you hwat. I guess this is more descriptions of what my process was or something. It's got to be short and sweet but also professional, but like, fuse that right? </p>
-
-	    </div>
-
-    </div>
-
-    <div class="other_samples_container col-md-2 col-lg-2">
-
-   		<h3> Other UI Projects </h3>
-
-   		<a href="#">
-   			<div class="other_samples"> Project # 2 </div>
-   		</a>
-
-   		<a href="#">
-   			<div class="other_samples"> Project # 3 </div>
-   		</a>
-
-   		<a href="#">
-   			<div class="other_samples"> Project # 4 </div>
-   		</a>
-
-   		<a href="#">
-   			<div class="other_samples"> Project # 5 </div>
-   		</a>
-
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -135,35 +30,54 @@
     <script>
   	
     	$(document).ready(function(){
-
-    		// MOBILE SAMPLES TABS
-			$('.graphic_tab').click(function(e){
-				$('.ui_samples').hide();
-				$('.ui_tab').removeClass('activated');
-
-				$('.graphic_samples').show();
-				$('.graphic_tab').addClass('activated');
-				e.preventDefault();
-			});
+    		// LIGHTBOX STUFF
 
 
-			$('.ui_tab').click(function(e){
-				$('.graphic_samples').hide();
-				$('.graphic_tab').removeClass('activated');
+    		//LIGHTBOX ACTIVATION
+    		$('.lightbox-trigger').click(function(e){
+    			e.preventDefault();
+ 
+        		var image_href = $(this).attr("href");
+        		var image_class = $(this).attr("class");
+   
+    			// if the lightbox shares the class of landscape, give it landscape
+		        if ($('.lightbox-trigger').hasClass("landscape")){
+					
+					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+					
+					$('.lightbox').show();
 
-				$('.ui_samples').show();
-				$('.ui_tab').addClass('activated');
-				e.preventDefault();
-			});
+				} // string code landscape if end
 
 
 
-    	})
+				// if the lightbox shares the class of portrait, give it portrait
+      			if ($('.lightbox-trigger').hasClass("portrait")){
+      				
+      				$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+        			$('.lightbox').show();
+  				}
+
+
+			}); // LIGHTBOX ACTIVATION END
+
+
+
+    		//LIGHTBOX DEACTIVATION
+    		$('.lightbox').click(function(e){
+
+    			$('.lightbox').hide();
+
+    		}); // LIGHTBOX DEACTIVATION END
+
+
+    		
+    	});	// LIGHTBOX FUNCTION END
+
 
 	</script>
 
-</body>
+  </body>
 
 </html>
-
-

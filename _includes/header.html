@@ -1,80 +1,23 @@
 <header>
 
-  <nav>
+  <div class="logo">
 
-    <a href="/index.html" class="header-logo">
-      <h2>janina<span class="black-text">hartley</span> </h2>
+    <a href="./index.html" class="mobile_logo">
+      <img src="./images/logo-favicon.png">
     </a>
 
-    <div class="trigger">
+    <a href="./index.html" class="desktop_logo">
+      <h3> janina<span class="pink-color">hartley</span> </h3>
+    </a>
 
-      <!-- UI DESIGN -->
+  </div>
 
-      {% if page.url == '/level-up-learning/' %} 
-        <span>
+  <nav>
 
-      {% else %}
+    <a href="./projects.html"> Work Samples </a>
 
-        <span>
+    <a href="#"> Contact Me </a>
 
-      {% endif %}
-
-        <a href="/level-up-learning/"> UI Design </a>
-      </span>
-
-
-
-
-      <!-- GRAPHIC DESIGN -->
-
-      {% if page.url == '/cities/' %} 
-        <span>
-
-      {% else %}
-
-        <span>
-
-      {% endif %}
-
-        <a href="/cities/"> Graphic Design </a>
-      </span>
-
-
-
-
-      <!-- BLOG -->
-
-      {% if page.url == '/PROJECT TITLE/' %} 
-        <span>
-
-      {% else %}
-
-        <span>
-
-      {% endif %}
-
-        <a href="/blog/"> Blog </a>
-      </span>
-
-
-
-
-      <!-- ABOUT ME -->
-
-      {% if page.url == '/PROJECT TITLE/' %} 
-        <span>
-
-      {% else %}
-
-        <span>
-
-      {% endif %}
-
-        <a href="/about-me/"> About Me </a>
-      </span>
-
-    </div>
-    
   </nav>
 
 </header>
