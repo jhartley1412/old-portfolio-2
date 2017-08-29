@@ -2,15 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// @import "variables-grid",
-// 		"breakpoints",
-// 		"home-page",
-// 		"projects",
-// 		"blog-page";
-
-
-@import "variables-grid",
-		"breakpoints";
+@import "variables-grid";
 
 
 // BASIC HTML STANDARDS
@@ -264,6 +256,11 @@ a{
 
 .landscape{
 	margin: 10% auto;
+	max-width: 900px;
+}
+
+.special-land{
+	margin: 20% auto;
 	max-width: 900px;
 }
 

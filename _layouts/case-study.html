@@ -60,6 +60,15 @@
   				}
 
 
+        // if the lightbox shares the class of portrait, give it special-land
+            if ($('.lightbox-trigger').hasClass("special-land")){
+              
+              $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+              $('.lightbox').show();
+          }
+
+
 			}); // LIGHTBOX ACTIVATION END
 
 

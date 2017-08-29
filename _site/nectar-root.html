@@ -9,17 +9,17 @@
   <title>Janina Hartley&#39;s Portfolio</title>
   <meta name="description" content="Janina Hartley’s ui, web, and graphic design portfolio..
 ">
-  
+
   <!-- @charset "UTF-8"; BS -->
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
 
   <!-- PHONE META TAG -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- FAVICON -->
   <link rel="shortcut icon" type="image/png" href="/images/logo-favicon.png">
-  
+
   <!-- GOOGLEFONTS -->
   <link href='https://fonts.googleapis.com/css?family=Dosis:400,300|Exo+2:700|Roboto' rel='stylesheet' type='text/css'>
 
@@ -28,20 +28,20 @@
 
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/nectar-root.html">
+  <link rel="canonical" href="http://localhost:4000/nectar-root">
   <link rel="alternate" type="application/rss+xml" title="Janina Hartley's Portfolio" href="http://localhost:4000/feed.xml">
 
   <!-- GOOGLE ANALYTICS -->
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-77018143-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-77018143-1', 'auto');
+    ga('send', 'pageview');
 
-</script>
+  </script>
 
 </head>
 
@@ -92,9 +92,9 @@
 
     	<img class="project_banner col-sm-12 col-md-12 col-lg-12" src="./images/two-desktops.jpg">
 
-    	<h2> Nectar & Root </h2>
+    	<h2> Project #1 </h2>
 
-    	<p> Nectar & Root is a floral and bridal company in Vermont. I did a project with them a while back to practice my branding design and create a new brand for them. I created a new logo, a sample design of a brochure and business card designs.  </p>
+    	<p> This is placeholder text. Woo. Project and UI stuff and vocab about design and maybe some information about the project. But probably mostly words that explain the company or the brand or something that'll get people to think it's some high-end fancy work I'm doing, plz hire me. </p>
 
     	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe1.png">
 
@@ -102,7 +102,7 @@
 
     	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe3.png">
 
-    	<p> Since Nectar & Root deals in flower arrangements, flowers had to be the start of the show. I was able to find high-quality photographs of flower bouquets, wedding photos and the like provided by them. Keeping in line with putting the spotlight on the flowers I created a brochure that both showcased their talent and beautiful designs but was balanced well with information about their company and what they did for their customers.  </p>
+    	<p> And then there are more words! It's like woah, a lot of typing or something I tell you hwat. I guess this is more descriptions of what my process was or something. It's got to be short and sweet but also professional, but like, fuse that right? </p>
 
     </div>
 
@@ -114,19 +114,7 @@
 
     	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe3.png">
 
-    	<p> To accompany the elegance portrayed in the brochure I wanted the business cards to be just as delicate. I designed the business cards to be simple, to-the-point and dainty yet professional. I liked the idea of using a grainy material for the business cards to portray the earthiness of the outdoors and of flowers themselves.  </p>
-
-    </div>
-
-    <div class="project_overview">
-
-    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe1.png">
-
-    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe2.png">
-
-    	<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/blog-post-images/fmf-wireframe3.png">
-
-    	<p> I came up with the idea of bouquet table tags. When bouquets were placed on tables during an event, each one would come with a tag that labeled what flowers were involved in the bouquet as well as either historical or symbolic meaning attached to them. This brings a sense of entertainment (and education) to each bouquet and gives the viewer a higher sense of attachment as well.   </p>
+    	<p> And then there are more words! It's like woah, a lot of typing or something I tell you hwat. I guess this is more descriptions of what my process was or something. It's got to be short and sweet but also professional, but like, fuse that right? </p>
 
     </div>
 
@@ -153,6 +141,7 @@
 		</a>
 
 </div>
+
 
 
 
@@ -195,6 +184,15 @@
 
         			$('.lightbox').show();
   				}
+
+
+        // if the lightbox shares the class of portrait, give it special-land
+            if ($('.lightbox-trigger').hasClass("special-land")){
+              
+              $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+              $('.lightbox').show();
+          }
 
 
 			}); // LIGHTBOX ACTIVATION END
