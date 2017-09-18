@@ -310,13 +310,20 @@ a {
   display: -webkit-flex;
   display: flex;
   width: 99%;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 0 auto; }
 
 .b_image {
   display: block;
-  margin: auto; }
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10px; }
+
+.flex-portrait {
+  width: 200px;
+  height: 267px; }
 
 .other_samples_container {
   float: left;
@@ -339,11 +346,15 @@ a {
     width: 80%;
     display: block; }
 
-.portrait {
-  width: 33.33%; }
+.light-box-portrait {
+  margin: 6% auto;
+  max-width: 600px; }
 
-.landscape {
-  width: 33.33%; }
+.light-box-landscape {
+  margin: 10% auto;
+  max-width: 900px; }
+  .light-box-landscape img {
+    margin: 0 auto; }
 
 .special-land {
   margin: 20% auto;

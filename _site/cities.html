@@ -165,24 +165,28 @@
         		var image_href = $(this).attr("href");
         		var image_class = $(this).attr("class");
    
-    			// if the lightbox shares the class of landscape, give it landscape
+    			// if the lightbox shares the class of portrait, give it portrait
+            if ($('.lightbox-trigger').hasClass("portrait")){
+              
+              $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+              $('.lightbox-content').addClass("light-box-portrait"); 
+
+              $('.lightbox').show();
+          }
+
+
+          // if the lightbox shares the class of landscape, give it landscape
 		        if ($('.lightbox-trigger').hasClass("landscape")){
 					
-					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-					
-					$('.lightbox').show();
+    					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
 
-				} // string code landscape if end
+              $('.lightbox-content').addClass("light-box-landscape");      
+    					
+    					$('.lightbox').show();
 
 
-
-				// if the lightbox shares the class of portrait, give it portrait
-      			if ($('.lightbox-trigger').hasClass("portrait")){
-      				
-      				$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-        			$('.lightbox').show();
-  				}
+    				} // string code landscape if end
 
 
         // if the lightbox shares the class of portrait, give it special-land
