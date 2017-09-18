@@ -2,7 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "variables-grid";
+@import "variables-grid",
+		"breakpoints";
 
 
 // BASIC HTML STANDARDS
@@ -204,6 +205,14 @@ a{
 	}
 }
 
+.case_study_container{
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+
+
+
+
 // project main image
 .project_banner{
 	// width: 100%;
@@ -221,13 +230,18 @@ a{
 
 // case study picture conatiner
 .cs-pictures-container{
-	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex; 
 	// flex-direction is at default (ltr)
 	// flex-wrap is at default (no wrap)
-	width: 100%;
+
+	width: 99%;
 	height: 200px;
 	overflow: hidden;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 //project minor (b) images
@@ -273,11 +287,13 @@ a{
 .portrait{
 	// margin: 6% auto;
 	// max-width: 600px;
+	width: 33.33%;
 }
 
 .landscape{
 	// margin: 10% auto;
 	// max-width: 900px;
+	width: 33.33%;
 }
 
 .special-land{
