@@ -241,7 +241,6 @@ a{
 	width: 99%;
 	// height: 300px;
 	// overflow: hidden;
-	justify-content: space-between;
 	margin: 0 auto;
 }
 
@@ -257,6 +256,11 @@ a{
 .flex-portrait{
 	width: 200px;
 	height: 267px;
+}
+
+.flex-landscape{
+	width: 220px;
+	height: 157px;
 }
 
 .other_samples_container{
@@ -292,6 +296,11 @@ a{
 	}
 }
 
+.lightbox-content{
+	display: flex;
+	justify-content: center;
+}
+
 .portrait{
 	// indicator on which lightbox class to use
 }
@@ -300,9 +309,15 @@ a{
 	// indicator on which lightbox class to use
 }
 
+.lightbox-picture{
+	
+}
+
 .light-box-portrait{
-	margin: 6% auto;
-	max-width: 600px;
+	// margin: 6% auto;
+	// max-width: 600px;
+	height: 40%;
+
 
 	img{
 		margin: 0 auto;
@@ -310,8 +325,9 @@ a{
 }
 
 .light-box-landscape{
-	margin: 10% auto;
-	max-width: 900px;
+	// margin: 10% auto;
+	// max-width: 900px;
+	height: 40%;
 
 	img{
 		margin: 0 auto;

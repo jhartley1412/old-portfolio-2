@@ -49,13 +49,13 @@
 
   	<div class="lightbox">
 
-	  <div class="lightbox-content">
+  	  <div class="lightbox-content">
 
-	    <img class="#" src="#"/>
+  	    <img class="#" src="#"/>
 
-	  </div>
+  	  </div>
 
-	</div>
+  	</div>
 
     <header>
 
@@ -181,41 +181,14 @@
     		$('.lightbox-trigger').click(function(e){
     			e.preventDefault();
  
-        		var image_href = $(this).attr("href");
-        		var image_class = $(this).attr("class");
+          var image_href = $(this).attr("href");
+          var image_class = $(this).attr("class");
+
+
+          $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+          $('.lightbox').show();
    
-    			// if the lightbox shares the class of portrait, give it portrait
-            if ($('.lightbox-trigger').hasClass("portrait")){
-              
-              $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-              $('.lightbox-content').addClass("light-box-portrait"); 
-
-              $('.lightbox').show();
-          }
-
-
-          // if the lightbox shares the class of landscape, give it landscape
-		        if ($('.lightbox-trigger').hasClass("landscape")){
-					
-    					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-              $('.lightbox-content').addClass("light-box-landscape");      
-    					
-    					$('.lightbox').show();
-
-
-    				} // string code landscape if end
-
-
-        // if the lightbox shares the class of portrait, give it special-land
-            if ($('.lightbox-trigger').hasClass("special-land")){
-              
-              $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-              $('.lightbox').show();
-          }
-
 
 			}); // LIGHTBOX ACTIVATION END
 

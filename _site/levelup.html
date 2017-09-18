@@ -49,13 +49,13 @@
 
   	<div class="lightbox">
 
-	  <div class="lightbox-content">
+  	  <div class="lightbox-content">
 
-	    <img class="#" src="#"/>
+  	    <img class="#" src="#"/>
 
-	  </div>
+  	  </div>
 
-	</div>
+  	</div>
 
     <header>
 
@@ -118,33 +118,36 @@
 
 		</div>
 
+		<br>
+
+		<div class="cs-pictures-container">
+
+			<a href="./images/levelup/style-tiles-01.jpg" class="lightbox-trigger landscape">
+				<img class="b_image flex-landscape" src="./images/levelup/style-tiles-01.jpg">
+			</a>	
+
+			<a href="./images/levelup/style-tiles-02.jpg" class="lightbox-trigger landscape">
+				<img class="b_image flex-landscape" src="./images/levelup/style-tiles-02.jpg">
+			</a>
+
+			<a href="./images/levelup/style-tiles-03.jpg" class="lightbox-trigger landscape">
+				<img class="b_image flex-landscape" src="./images/levelup/style-tiles-03.jpg">
+			</a>
+
+		</div>
+
     	
 
     	<p> One thing I knew I wanted to focus on early on was gamification and keeping a child's attention. From a lot of research, I knew that positive reinforcement was key to making a child feel accomplished, and it was important that the student (the user) was being both challenged but engaged. The idea to include badges that the student would collect whenever they finished a lesson was a given in that sense.</p>
 
 		<p> Unfortunately, through both time constraints as well as a lack of professional knowledge on early education, I could only include "placeholder" lessons that would give a viewer an idea of how a student who was struggling in school might be captivated through a lesson that was completely interactive. I've read a lot of articles that advocate towards experience being one of the best ways to retain information (i.e. remembering hard facts via having first-hand experiences that trigger that knowledge). </p>
 
-    </div>
 
-    <div class="project_overview">
-
-    	<a href="./images/levelup/style-tiles-01.jpg" class="lightbox-trigger col-sm-11 col-md-10 col-lg-10 landscape">
-    		<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/levelup/style-tiles-01.jpg">
-		</a>
-
-    	<a href="./images/levelup/style-tiles-02.jpg" class="lightbox-trigger col-sm-11 col-md-10 col-lg-10 landscape">
-    		<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/levelup/style-tiles-02.jpg">
-		</a>
-
-    	<a href="./images/levelup/style-tiles-03.jpg" class="lightbox-trigger col-sm-11 col-md-10 col-lg-10 landscape">
-    		<img class="b_image col-sm-8 col-md-3 col-lg-3" src="./images/levelup/style-tiles-03.jpg">
-		</a>
-
-    	<p> When it came to aesthetics, obviously being targeted towards younger kids I needed a brand that was inviting yet stimulating. I had originally come up with three different directions to take; energetically fun, overly studious, or extremely childish. I ended up mixing the three, focusing mostly on friendliness and invitingness. </p>
+		<p> When it came to aesthetics, obviously being targeted towards younger kids I needed a brand that was inviting yet stimulating. I had originally come up with three different directions to take; energetically fun, overly studious, or extremely childish. I ended up mixing the three, focusing mostly on friendliness and invitingness. </p>
 
 		<p> Yellow-gold was seen as a double-win in being both friendly and mentally stimulating. Paired with light blues and greens and pinks for the lessons themselves allowed the lessons to stand out and be identifiable by their colors, again reaching for that association aspect. In the end, I believe that it came together really nicely, and I hope to continue this idea in the future. </p>
 
-    </div>
+	</div>
 
 </div>
 
@@ -190,41 +193,14 @@
     		$('.lightbox-trigger').click(function(e){
     			e.preventDefault();
  
-        		var image_href = $(this).attr("href");
-        		var image_class = $(this).attr("class");
+          var image_href = $(this).attr("href");
+          var image_class = $(this).attr("class");
+
+
+          $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
+
+          $('.lightbox').show();
    
-    			// if the lightbox shares the class of portrait, give it portrait
-            if ($('.lightbox-trigger').hasClass("portrait")){
-              
-              $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-              $('.lightbox-content').addClass("light-box-portrait"); 
-
-              $('.lightbox').show();
-          }
-
-
-          // if the lightbox shares the class of landscape, give it landscape
-		        if ($('.lightbox-trigger').hasClass("landscape")){
-					
-    					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-              $('.lightbox-content').addClass("light-box-landscape");      
-    					
-    					$('.lightbox').show();
-
-
-    				} // string code landscape if end
-
-
-        // if the lightbox shares the class of portrait, give it special-land
-            if ($('.lightbox-trigger').hasClass("special-land")){
-              
-              $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-              $('.lightbox').show();
-          }
-
 
 			}); // LIGHTBOX ACTIVATION END
 

@@ -20,6 +20,10 @@
 		float: none;
 	}
 
+	.cs-pictures-container{
+		justify-content: center;
+	}
+
 }
 
 
@@ -51,6 +55,11 @@
 	
 	.graphic-samples{
 		display: block;
+	}
+
+
+	.cs-pictures-container{
+		justify-content: space-between;
 	}
 	
 }
