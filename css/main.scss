@@ -211,9 +211,30 @@ a{
 	display: block;
 }
 
+.project-overview{
+	width: 100%;
+
+	p{
+		margin: 0.5em 0 1em 0;
+	}
+}
+
+// case study picture conatiner
+.cs-pictures-container{
+	display: flex;
+	// flex-direction is at default (ltr)
+	// flex-wrap is at default (no wrap)
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	justify-content: center;
+}
+
 //project minor (b) images
 .b_image{
 	display: block;
+	margin: auto;
+
 }
 
 .other_samples_container{
@@ -250,13 +271,13 @@ a{
 }
 
 .portrait{
-	margin: 6% auto;
-	max-width: 600px;
+	// margin: 6% auto;
+	// max-width: 600px;
 }
 
 .landscape{
-	margin: 10% auto;
-	max-width: 900px;
+	// margin: 10% auto;
+	// max-width: 900px;
 }
 
 .special-land{
