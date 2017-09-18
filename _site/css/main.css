@@ -309,9 +309,8 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-wrap: wrap;
   width: 99%;
-  height: 300px;
-  overflow: hidden;
   justify-content: space-between;
   margin: 0 auto; }
 
@@ -349,6 +348,8 @@ a {
 .light-box-portrait {
   margin: 6% auto;
   max-width: 600px; }
+  .light-box-portrait img {
+    margin: 0 auto; }
 
 .light-box-landscape {
   margin: 10% auto;

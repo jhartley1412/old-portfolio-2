@@ -236,11 +236,11 @@ a{
 	display: -webkit-flex;
 	display: flex; 
 	// flex-direction is at default (ltr)
-	// flex-wrap is at default (no wrap)
+	flex-wrap: wrap;
 
 	width: 99%;
-	height: 300px;
-	overflow: hidden;
+	// height: 300px;
+	// overflow: hidden;
 	justify-content: space-between;
 	margin: 0 auto;
 }
@@ -303,6 +303,10 @@ a{
 .light-box-portrait{
 	margin: 6% auto;
 	max-width: 600px;
+
+	img{
+		margin: 0 auto;
+	}
 }
 
 .light-box-landscape{
