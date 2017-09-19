@@ -250,7 +250,6 @@ a{
 .b_image{
 	display: block;
 	margin: auto;
-
 	box-sizing: border-box;
 	padding: 10px;
 }
@@ -288,19 +287,11 @@ a{
 }
 
 .lightbox-content{
-	display: flex;
-	justify-content: center;
-}
-
-
-.lightbox-picture{
-
+	
 
 	img{
 		width: 80%;
-		display: block;
 	}
-
 }
 
 

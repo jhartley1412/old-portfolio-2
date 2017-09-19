@@ -1,37 +1,4 @@
-.col-sm-1 {
-  width: 5.5833333333%; }
-
-.col-sm-2 {
-  width: 14.1666666667%; }
-
-.col-sm-3 {
-  width: 22.75%; }
-
-.col-sm-4 {
-  width: 31.3333333333%; }
-
-.col-sm-5 {
-  width: 39.9166666667%; }
-
-.col-sm-6 {
-  width: 48.5%; }
-
-.col-sm-7 {
-  width: 57.0833333333%; }
-
-.col-sm-8 {
-  width: 65.6666666667%; }
-
-.col-sm-9 {
-  width: 74.25%; }
-
-.col-sm-10 {
-  width: 82.8333333333%; }
-
-.col-sm-11 {
-  width: 91.4166666667%; }
-
-.col-sm-12 {
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -106,40 +73,7 @@
 
   .col-lg-12 {
     width: 100%; } }
-.col-sm-1 {
-  width: 5.5833333333%; }
-
-.col-sm-2 {
-  width: 14.1666666667%; }
-
-.col-sm-3 {
-  width: 22.75%; }
-
-.col-sm-4 {
-  width: 31.3333333333%; }
-
-.col-sm-5 {
-  width: 39.9166666667%; }
-
-.col-sm-6 {
-  width: 48.5%; }
-
-.col-sm-7 {
-  width: 57.0833333333%; }
-
-.col-sm-8 {
-  width: 65.6666666667%; }
-
-.col-sm-9 {
-  width: 74.25%; }
-
-.col-sm-10 {
-  width: 82.8333333333%; }
-
-.col-sm-11 {
-  width: 91.4166666667%; }
-
-.col-sm-12 {
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15 {
   width: 100%; }
 
 @media (min-width: 420px) {
@@ -215,86 +149,32 @@
   .col-lg-12 {
     width: 100%; } }
 @media (min-width: 300px) {
-  .mobile_logo {
-    display: block; }
-
-  .desktop_logo {
+  .graphic-samples {
     display: none; }
 
-  .samples_text {
-    display: none; }
-
-  nav a {
-    margin: 0.8em 1em 0 0; }
-
-  .samples_nav {
-    display: block; }
-
-  .samples_container {
-    margin: 0 auto;
+  .bts_button {
     float: none; }
 
-  .graphic_samples {
-    display: none; }
-
-  .bts_button {
-    float: none;
-    clear: both; }
-
   .case_study_container {
-    float: none;
-    clear: both;
-    margin-top: 2em; }
+    float: none; }
 
   .b_image {
-    margin: 0 auto;
-    clear: both;
-    margin: 1.5em auto; }
-
-  .other_samples_container {
-    display: none; } }
+    width: 240px; } }
 @media (min-width: 420px) {
-  .mobile_logo {
-    display: none; }
-
-  .desktop_logo {
-    display: block; }
-
-  .samples_text {
-    display: block; }
-
-  nav a {
-    margin: 0.8em 1.5em 0 0.5em; }
-
-  .samples_nav {
-    display: none; }
-
-  .samples_container {
-    margin: 0 auto;
+  .bts_button {
     float: left; }
 
-  .graphic_samples {
-    display: block;
-    float: right; }
-
-  .bts_button {
-    float: left;
-    clear: none; }
-
   .case_study_container {
-    float: left;
-    clear: none;
-    margin-top: 0; }
-    .case_study_container img:last-of-type {
-      margin-right: 0; }
+    float: left; }
 
   .b_image {
-    clear: none;
-    float: left;
-    margin: 0 15% 0 0; }
+    width: 200px; } }
+@media (min-width: 978px) {
+  .graphic-samples {
+    display: block; }
 
-  .other_samples_container {
-    display: block; } }
+  .b_image {
+    width: 240px; } }
 body {
   max-width: 1412px;
   margin: 0 auto;
@@ -419,12 +299,39 @@ a {
   .bts_button:hover {
     cursor: pointer; }
 
+.case_study_container {
+  box-sizing: border-box;
+  padding: 0 20px; }
+
 .project_banner {
   margin: 0 auto;
   display: block; }
 
+.project-overview {
+  width: 100%; }
+  .project-overview p {
+    margin: 0.5em 0 1em 0; }
+
+.cs-pictures-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 99%;
+  margin: 0 auto; }
+
 .b_image {
-  display: block; }
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10px; }
+
+.b_border {
+  border: 1px solid #E6E6E6; }
 
 .other_samples_container {
   float: left;
@@ -443,16 +350,6 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
   overflow: scroll;
   display: none; }
-  .lightbox img {
-    width: 80%;
-    display: block; }
 
-.portrait {
-  margin: 6% auto;
-  max-width: 600px; }
-
-.landscape {
-  margin: 10% auto;
-  max-width: 900px; }
-
-/*# sourceMappingURL=main.css.map */
+.lightbox-content img {
+  width: 80%; }
