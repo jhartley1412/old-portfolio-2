@@ -20,8 +20,12 @@
 		float: none;
 	}
 
-	.cs-pictures-container{
-		justify-content: center;
+	// .cs-pictures-container{
+	// 	justify-content: center;
+	// }
+
+	.b_image{
+		width: 240px;
 	}
 
 }
@@ -43,6 +47,10 @@
 		float: left;
 	}
 
+	.b_image{
+		width: 200px;
+	}
+
 }
 
 
@@ -58,8 +66,12 @@
 	}
 
 
-	.cs-pictures-container{
-		justify-content: space-between;
+	// .cs-pictures-container{
+	// 	justify-content: space-around;
+	// }
+
+	.b_image{
+		width: 240px;
 	}
 	
 }
