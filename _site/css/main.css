@@ -360,11 +360,17 @@ a {
   overflow: scroll;
   display: none; }
 
-.lightbox-content img {
+.portrait {
   width: 45%;
   margin: 0 auto;
   display: block;
   margin-top: 2em; }
+
+.landscape {
+  width: 65%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 6em; }
 
 footer {
   height: 23px;

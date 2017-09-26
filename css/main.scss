@@ -298,15 +298,18 @@ a{
 	display: none;
 }
 
-.lightbox-content{
+.portrait{
+	width: 45%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 2em;
+}
 
-
-	img{
-		width: 45%;
-		margin: 0 auto;
-		display: block;
-		margin-top: 2em;
-	}
+.landscape{
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 6em;
 }
 
 

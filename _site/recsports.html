@@ -184,21 +184,40 @@
 
 
     		//LIGHTBOX ACTIVATION
-    		$('.lightbox-trigger').click(function(e){
+
+        // PORTRAIT
+    		$('.portrait-trigger').click(function(e){
     			e.preventDefault();
  
           var image_href = $(this).attr("href");
           var image_class = $(this).attr("class");
 
+          $('.lightbox-content').html('<img class="portrait ' + image_class + '" src="' + image_href +'"/>');
 
-          $('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
 
-          // $('.lightbox-content').addClass("lightbox-picture"); 
+          console.log('woop');
 
           $('.lightbox').show();
    
 
-			}); // LIGHTBOX ACTIVATION END
+			}); // PORTRAIT ACTIVATION END
+
+
+
+        // LANDSCAPE
+        $('.landscape-trigger').click(function(e){
+          e.preventDefault();
+ 
+          var image_href = $(this).attr("href");
+          var image_class = $(this).attr("class");
+
+          $('.lightbox-content').html('<img class="landscape ' + image_class + '" src="' + image_href +'"/>');
+
+
+          $('.lightbox').show();
+   
+
+      }); // LANDSCAPE ACTIVATION END
 
 
 
