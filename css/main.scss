@@ -251,16 +251,13 @@ a{
 	display: flex; 
 	// flex-direction is at default (ltr)
 	flex-wrap: wrap;
-	flex-flow: row wrap;
-	
 
 	width: 100%;
 	margin: 2em auto 2.5em auto;
+}
 
-	img{
-		flex: 1;
-		margin-bottom: 25px;
-	}
+.flex-item{
+	margin-bottom: 25px;
 }
 
 //project minor (b) images
@@ -268,6 +265,7 @@ a{
 	display: block;
 	margin: auto;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 .b_border{

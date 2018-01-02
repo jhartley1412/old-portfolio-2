@@ -39,14 +39,11 @@
 	.cs-pictures-container{
 		justify-content: center;
 		// align-content: center;
-
-		img{
-			flex-basis: 50%;
-		}
 	}
 
-	.b_image{
-		width: 240px;
+	.flex-item{
+		// width: 240px;
+		flex-basis: 100%;
 	}
 
 }
@@ -76,17 +73,8 @@
 		float: left;
 	}
 
-	.cs-pictures-container{
-		justify-content: space-between;
-		// align-content: space-between;
-
-		img{
-			flex-basis: 25%;
-		}
-	}
-
-	.b_image{
-		width: 200px;
+	.flex-item{
+		flex-basis: 65%;
 	}
 
 }
@@ -107,14 +95,11 @@
 	}
 
 	.cs-pictures-container{
-
-		img{
-			flex-basis: 100%;
-		}
+		justify-content: space-evenly;
 	}
 
-	.b_image{
-		width: 240px;
+	.flex-item{
+		flex-basis: 30%;
 	}
 	
 }
