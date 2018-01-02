@@ -36,6 +36,15 @@
 		}
 	}
 
+	.cs-pictures-container{
+		justify-content: center;
+		// align-content: center;
+
+		img{
+			margin-bottom: 25px;
+		}
+	}
+
 	.b_image{
 		width: 240px;
 	}
@@ -65,11 +74,6 @@
 
 	.case_study_container{
 		float: left;
-
-		h2, p{
-			box-sizing: border-box;
-			padding: 0 50px;
-		}
 	}
 
 	.b_image{
@@ -84,6 +88,19 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 978px){
+	
+	.case_study_container{
+
+		h2, p{
+			box-sizing: border-box;
+			padding: 0 50px;
+		}
+	}
+
+	.cs-pictures-container{
+		justify-content: space-between;
+		// align-content: space-between;
+	}
 
 	.b_image{
 		width: 240px;
