@@ -25,20 +25,22 @@
 
     		// MOBILE SAMPLES TABS
 			$('.graphic_tab').click(function(e){
-				$('.ui_samples').hide();
+				$('.ui_samples').addClass('not_shown');
 				$('.ui_tab').removeClass('activated');
+        console.log('not show given to ui');
 
-				$('.graphic_samples').show();
+				$('.graphic_samples').addClass('shown');
 				$('.graphic_tab').addClass('activated');
+        console.log('show given to graphic');
 				e.preventDefault();
 			});
 
 
 			$('.ui_tab').click(function(e){
-				$('.graphic_samples').hide();
+				$('.graphic_samples').addClass('not_shown');
 				$('.graphic_tab').removeClass('activated');
 
-				$('.ui_samples').show();
+				$('.ui_samples').addClass('shown');
 				$('.ui_tab').addClass('activated');
 				e.preventDefault();
 			});

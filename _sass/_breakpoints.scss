@@ -7,10 +7,21 @@
 
 @media(min-width: 300px){
 
-	.graphic-samples{
+	.graphic_samples{
 		display: none;
 	}
 
+	.not_shown{
+		display: none;
+	}
+
+	.shown{
+		display: block;
+	}
+
+	.samples_nav{
+		display: block;
+	}
 
 	.bts_button{
 		float: none;
@@ -18,6 +29,11 @@
 
 	.case_study_container{
 		float: none;
+
+		h2, p{
+			box-sizing: border-box;
+			padding: 0 10px;
+		}
 	}
 
 	.b_image{
@@ -33,14 +49,27 @@
 // TALBET
 // ———————————————————————————————————————————
 
-@media(min-width: 420px){
+@media(min-width: 650px){
 	
+	.samples_container, .not_shown{
+		display: block;
+	}
+
+	.samples_nav{
+		display: none;
+	}
+
 	.bts_button{
 		float: left;
 	}
 
 	.case_study_container{
 		float: left;
+
+		h2, p{
+			box-sizing: border-box;
+			padding: 0 50px;
+		}
 	}
 
 	.b_image{
@@ -55,11 +84,6 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 978px){
-	
-	
-	.graphic-samples{
-		display: block;
-	}
 
 	.b_image{
 		width: 240px;

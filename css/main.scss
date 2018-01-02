@@ -114,6 +114,7 @@ a{
 }
 
 
+
 // WORK SAMPLES	
 //———————————————————————————————————————————
 
@@ -137,6 +138,7 @@ a{
 
 .samples_container{
 	overflow: hidden;
+	float: left;
 
 	h2{
 		text-align: center;
@@ -249,8 +251,8 @@ a{
 	display: flex; 
 	// flex-direction is at default (ltr)
 	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: space-between;
+	justify-content: space-between;
+	// align-content: space-between;
 
 	width: 100%;
 	// height: 300px;
@@ -263,7 +265,6 @@ a{
 	display: block;
 	margin: auto;
 	box-sizing: border-box;
-	padding: 10px;
 }
 
 .b_border{
