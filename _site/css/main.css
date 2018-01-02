@@ -188,8 +188,11 @@
   .case_study_container {
     float: left; }
 
-  .flex-item {
-    flex-basis: 65%; } }
+  .horizontal {
+    flex-basis: 65%; }
+
+  .vertical {
+    flex-basis: 90%; } }
 @media (min-width: 978px) {
   .case_study_container h2, .case_study_container p {
     box-sizing: border-box;

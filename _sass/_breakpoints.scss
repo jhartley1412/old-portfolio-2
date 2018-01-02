@@ -73,8 +73,12 @@
 		float: left;
 	}
 
-	.flex-item{
+	.horizontal{
 		flex-basis: 65%;
+	}
+
+	.vertical{
+		flex-basis: 90%;
 	}
 
 }
