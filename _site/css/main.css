@@ -396,18 +396,22 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  justify-content: center; }
 
 .lightbox-portrait {
-  flex-basis: 65%; }
+  flex-basis: 40%; }
   .lightbox-portrait img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px; }
+
+.lightbox-landscape {
+  flex-basis: 65%; }
+  .lightbox-landscape img {
     width: 100%; }
 
-.landscape {
-  margin: 0 auto;
-  display: block;
-  flex-basis: 65%; }
+.body-scroll {
+  overflow: hidden; }
 
 footer {
   height: 23px;

@@ -198,6 +198,8 @@
 
           $('.lightbox').html('<div class="lightbox-content lightbox-portrait">\t<img src="' + image_href +'"/> ');
 
+          $('body').addClass('body-scroll');
+
 
           console.log('woop');
 
@@ -227,6 +229,8 @@
 
     		//LIGHTBOX DEACTIVATION
     		$('.lightbox').click(function(e){
+
+          $('body').removeClass('body-scroll');
 
     			$('.lightbox').hide();
 

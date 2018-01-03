@@ -296,7 +296,6 @@ a{
 	left:0;
 	background-color: rgba(0, 0, 0, 0.5);
 	overflow: scroll;
-
 	display: none;
 }
 
@@ -306,29 +305,29 @@ a{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-
 	justify-content: center;
-	align-items: center;
 }
 
 .lightbox-portrait{
+	flex-basis: 40%;
+
+	img{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20px;
+	}
+}
+
+.lightbox-landscape{
 	flex-basis: 65%;
 
 	img{
 		width: 100%;
 	}
-	// width: 45%;
-	// margin: 0 auto;
-	// display: block;
-	// margin-top: 2em;
 }
 
-.landscape{
-	// width: 65%;
-	margin: 0 auto;
-	display: block;
-	flex-basis: 65%;
-	// margin-top: 6em;
+.body-scroll{
+	overflow: hidden;
 }
 
 
