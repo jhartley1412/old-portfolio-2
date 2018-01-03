@@ -188,10 +188,10 @@
   .case_study_container {
     float: left; }
 
-  .vertical {
+  .static-img-portrait {
     flex-basis: 65%; }
 
-  .horizontal {
+  .static-img-landscape {
     flex-basis: 90%; } }
 @media (min-width: 978px) {
   .case_study_container h2, .case_study_container p {
