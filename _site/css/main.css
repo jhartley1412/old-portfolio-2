@@ -232,13 +232,13 @@ header {
       color: #000; }
 
 nav {
-  float: left;
-  height: inherit;
-  background-color: blue; }
+  float: left; }
   nav a {
     float: left;
+    margin-right: 1em;
     font-size: 17px;
-    color: #000; }
+    color: #000;
+    padding-top: 0.7em; }
 
 .page-content, .wrapper {
   max-width: 1412px;
@@ -265,7 +265,7 @@ a {
   font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   text-decoration: none; }
 
-.pink-color {
+.prime-color {
   color: #e8584e; }
 
 .underlined {
@@ -276,6 +276,10 @@ a {
 
 .clear {
   float: clear; }
+
+span.underline a {
+  text-decoration: underline;
+  color: #e8584e; }
 
 .all_samples_container {
   margin: 0 auto;

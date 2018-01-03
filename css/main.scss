@@ -61,13 +61,13 @@ header{
 
 nav{
 	float: left;
-	height: inherit;
-	background-color: blue;
 
 	a{
 		float: left;
+		margin-right: 1em;
 		font-size: 17px;
 		color: #000;
+		padding-top: 0.7em;
 	}
 }
 
@@ -113,7 +113,7 @@ a{
 // TEXT, COLORS, SPAN CHANGES
 //———————————————————————————————————————————
 
-.pink-color{
+.prime-color{
 	color: $prime-color;
 }
 
@@ -127,6 +127,13 @@ a{
 
 .clear{
 	float: clear;
+}
+
+span.underline{
+	a{
+		text-decoration: underline;
+		color: $prime-color;
+	}
 }
 
 
