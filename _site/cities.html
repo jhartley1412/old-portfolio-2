@@ -173,8 +173,6 @@
           var image_href = $(this).attr("href");
           var image_class = $(this).attr("class");
 
-          // $('.lightbox-content').html('<img class="portrait ' + image_class + '" src="' + image_href +'"/>');
-
           $('.lightbox').addClass('lighbox-flexbox');
 
           $('.lightbox').html('<div class="lightbox-content lightbox-portrait">\t<img src="' + image_href +'"/> ');
@@ -198,7 +196,11 @@
           var image_href = $(this).attr("href");
           var image_class = $(this).attr("class");
 
-          $('.lightbox-content').html('<img class="landscape ' + image_class + '" src="' + image_href +'"/>');
+          $('.lightbox').addClass('lighbox-flexbox');
+
+          $('.lightbox').html('<div class="lightbox-content lightbox-landscape">\t<img src="' + image_href +'"/> ');
+
+          $('body').addClass('body-scroll');
 
 
           $('.lightbox').show();

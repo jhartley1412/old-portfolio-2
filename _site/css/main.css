@@ -408,7 +408,9 @@ a {
 .lightbox-landscape {
   flex-basis: 65%; }
   .lightbox-landscape img {
-    width: 100%; }
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px; }
 
 .body-scroll {
   overflow: hidden; }
