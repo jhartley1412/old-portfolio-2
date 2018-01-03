@@ -396,14 +396,13 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: stretch; }
 
-.lightbox-portrait {
-  flex-basis: 40%; }
-  .lightbox-portrait img {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px; }
+.lightbox-portrait img {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px; }
 
 .lightbox-landscape {
   flex-basis: 65%; }
