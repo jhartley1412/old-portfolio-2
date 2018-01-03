@@ -6,6 +6,14 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 300px){
+	
+	.mobile_logo{
+		display: block;
+	}
+
+	.desktop_logo{
+		display: none;
+	}
 
 	.bts_button{
 		float: none;
@@ -40,6 +48,14 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 650px){
+	
+	.mobile_logo{
+		display: none;
+	}
+
+	.desktop_logo{
+		display: block;
+	}
 
 	.bts_button{
 		float: left;
