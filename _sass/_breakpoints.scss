@@ -7,22 +7,6 @@
 
 @media(min-width: 300px){
 
-	.graphic_samples{
-		display: none;
-	}
-
-	.not_shown{
-		display: none;
-	}
-
-	.shown{
-		display: block;
-	}
-
-	.samples_nav{
-		display: block;
-	}
-
 	.bts_button{
 		float: none;
 	}
@@ -56,14 +40,6 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 650px){
-	
-	.samples_container, .not_shown{
-		display: block;
-	}
-
-	.samples_nav{
-		display: none;
-	}
 
 	.bts_button{
 		float: left;

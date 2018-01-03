@@ -149,18 +149,6 @@
   .col-lg-12 {
     width: 100%; } }
 @media (min-width: 300px) {
-  .graphic_samples {
-    display: none; }
-
-  .not_shown {
-    display: none; }
-
-  .shown {
-    display: block; }
-
-  .samples_nav {
-    display: block; }
-
   .bts_button {
     float: none; }
 
@@ -176,12 +164,6 @@
   .flex-item {
     flex-basis: 100%; } }
 @media (min-width: 650px) {
-  .samples_container, .not_shown {
-    display: block; }
-
-  .samples_nav {
-    display: none; }
-
   .bts_button {
     float: left; }
 
@@ -300,47 +282,11 @@ a {
 .project_block {
   width: 300px;
   height: 180px;
-  margin: 1em auto;
+  margin: 0 auto 1em auto;
   background-color: #79A7B5; }
   .project_block:hover {
     cursor: pointer;
     background-color: #9abdc7; }
-
-.samples_nav a {
-  width: 50%;
-  margin: 0 auto;
-  float: left;
-  text-align: center; }
-
-.activated {
-  background-color: #F7F7F7; }
-
-.samples_container {
-  overflow: hidden;
-  float: left; }
-  .samples_container h2 {
-    text-align: center; }
-
-.samples_text .sample_text {
-  width: 300px;
-  height: 180px;
-  margin: 1em auto;
-  box-sizing: border-box;
-  display: none; }
-
-.ui_text {
-  float: left;
-  text-align: left; }
-
-.graphic_text {
-  float: right;
-  text-align: right; }
-
-#blank_sample {
-  width: 300px;
-  height: 180px;
-  background-color: #fff;
-  float: left; }
 
 .bts_button {
   padding: 0.5em 1em;
