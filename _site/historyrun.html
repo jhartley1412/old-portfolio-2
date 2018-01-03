@@ -50,7 +50,7 @@
   	<div class="lightbox">
 
   	  <div class="lightbox-content">
-
+        
   	    <img class="#" src="#"/>
 
   	  </div>
@@ -189,7 +189,11 @@
           var image_href = $(this).attr("href");
           var image_class = $(this).attr("class");
 
-          $('.lightbox-content').html('<img class="portrait ' + image_class + '" src="' + image_href +'"/>');
+          // $('.lightbox-content').html('<img class="portrait ' + image_class + '" src="' + image_href +'"/>');
+
+          $('.lightbox').addClass('lighbox-flexbox');
+
+          $('.lightbox').html('<div class="lightbox-content lightbox-portrait">\t<img src="' + image_href +'"/> ');
 
 
           console.log('woop');

@@ -188,10 +188,10 @@
   .case_study_container {
     float: left; }
 
-  .horizontal {
+  .vertical {
     flex-basis: 65%; }
 
-  .vertical {
+  .horizontal {
     flex-basis: 90%; } }
 @media (min-width: 978px) {
   .case_study_container h2, .case_study_container p {
@@ -390,17 +390,24 @@ a {
   overflow: scroll;
   display: none; }
 
-.portrait {
-  width: 45%;
-  margin: 0 auto;
-  display: block;
-  margin-top: 2em; }
+.lighbox-flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.lightbox-portrait {
+  flex-basis: 65%; }
+  .lightbox-portrait img {
+    width: 100%; }
 
 .landscape {
-  width: 65%;
   margin: 0 auto;
   display: block;
-  margin-top: 6em; }
+  flex-basis: 65%; }
 
 footer {
   height: 23px;

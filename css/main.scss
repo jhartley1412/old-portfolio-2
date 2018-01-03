@@ -248,8 +248,7 @@ a{
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
-	display: flex; 
-	// flex-direction is at default (ltr)
+	display: flex;
 	flex-wrap: wrap;
 
 	width: 100%;
@@ -297,21 +296,39 @@ a{
 	left:0;
 	background-color: rgba(0, 0, 0, 0.5);
 	overflow: scroll;
+
 	display: none;
 }
 
-.portrait{
-	width: 45%;
-	margin: 0 auto;
-	display: block;
-	margin-top: 2em;
+.lighbox-flexbox{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.lightbox-portrait{
+	flex-basis: 65%;
+
+	img{
+		width: 100%;
+	}
+	// width: 45%;
+	// margin: 0 auto;
+	// display: block;
+	// margin-top: 2em;
 }
 
 .landscape{
-	width: 65%;
+	// width: 65%;
 	margin: 0 auto;
 	display: block;
-	margin-top: 6em;
+	flex-basis: 65%;
+	// margin-top: 6em;
 }
 
 
