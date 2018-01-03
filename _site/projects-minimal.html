@@ -28,7 +28,7 @@
 
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/projects-minimal.html">
   <link rel="alternate" type="application/rss+xml" title="Janina Hartley's Portfolio" href="/feed.xml">
 
   <!-- GOOGLE ANALYTICS -->
@@ -46,16 +46,6 @@
 </head>
 
   <body>
-
-  	<div class="lightbox">
-
-	  <div class="lightbox-content">
-
-	    <img class="#" src="#"/>
-
-	  </div>
-
-	</div>
 
     <header>
 
@@ -84,13 +74,65 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <h1> Welcome to my portfolio </h1>
-<h2>I am a UI and web designer, currently living in Austin, TX. </h2>
+        <div class="all_samples_container col-sm-12 col-md-12 col-lg-10">
+
+
+    <a href="./levelup.html"> <div class="sample_ex ui_samples"> </div> </a>
+
+    <a href="./historyrun.html"> <div class="sample_ex ui_samples"> </div> </a>
+
+    <a href="./recsports.html"> <div class="sample_ex ui_samples"> </div> </a>
+
+
+
+
+    <!-- <div class="samples_nav">
+
+    	<a href="#" class="activated ui_tab"> UI Design </a>
+
+    	<a href="#" class="graphic_tab"> Graphic Design </a>
+
+    </div> -->
+    
+
+    <!-- <div class="ui_samples samples_container col-sm-12 col-md-6 col-lg-6">
+
+    	<h2> UI Design </h2>
+
+    	<a href="./levelup.html"> <div class="sample_ex ui_sample_one"> </div> </a>
+
+    	<a href="./historyrun.html"> <div class="sample_ex ui_sample_two"> </div> </a>
+
+    	<a href="./recsports.html"> <div class="sample_ex ui_sample_two"> </div> </a>
+
+    </div>
+
+
+    <div class="graphic_samples samples_container col-sm-12 col-md-6 col-lg-6">
+
+    	<h2> Graphic Design </h2>
+
+    	<a href="./cities.html"> <div class="sample_ex graphic_sample_one"> </div> </a>
+
+    	<a href="./nectar-root.html"> <div class="sample_ex graphic_sample_two"> </div> </a>
+
+    	<a href="./vantage-one.html"> <div class="sample_ex"> </div> </a>
+
+    </div> -->
+
+</div>
+
 
 
 
       </div>
     </div>
+
+    <footer>
+
+
+</footer>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
@@ -102,72 +144,27 @@
 
     		// MOBILE SAMPLES TABS
 			$('.graphic_tab').click(function(e){
-				$('.ui_samples').hide();
+				$('.ui_samples').addClass('not_shown');
 				$('.ui_tab').removeClass('activated');
+        console.log('not show given to ui');
 
-				$('.graphic_samples').show();
+				$('.graphic_samples').addClass('shown');
 				$('.graphic_tab').addClass('activated');
+        console.log('show given to graphic');
 				e.preventDefault();
 			});
 
 
 			$('.ui_tab').click(function(e){
-				$('.graphic_samples').hide();
+				$('.graphic_samples').addClass('not_shown');
 				$('.graphic_tab').removeClass('activated');
 
-				$('.ui_samples').show();
+				$('.ui_samples').addClass('shown');
 				$('.ui_tab').addClass('activated');
 				e.preventDefault();
 			});
 
     	});	// MOBILE SAMPLES TABS FUNCTION END
-
-
-    	$(document).ready(function(){
-    		// LIGHTBOX STUFF
-
-
-    		//LIGHTBOX ACTIVATION
-    		$('.lightbox-trigger').click(function(e){
-    			e.preventDefault();
- 
-        		var image_href = $(this).attr("href");
-        		var image_class = $(this).attr("class");
-   
-    			// if the lightbox shares the class of landscape, give it landscape
-		        if ($('.lightbox-trigger').hasClass("landscape")){
-					
-					$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-					
-					$('.lightbox').show();
-
-				} // string code landscape if end
-
-
-
-				// if the lightbox shares the class of portrait, give it portrait
-      			if ($('.lightbox-trigger').hasClass("portrait")){
-      				
-      				$('.lightbox-content').html('<img class="' + image_class + '" src="' + image_href +'"/>');
-
-        			$('.lightbox').show();
-  				}
-
-
-			}); // LIGHTBOX ACTIVATION END
-
-
-
-    		//LIGHTBOX DEACTIVATION
-    		$('.lightbox').click(function(e){
-
-    			$('.lightbox').hide();
-
-    		}); // LIGHTBOX DEACTIVATION END
-
-
-    		
-    	});	// LIGHTBOX FUNCTION END
 
 
 	</script>
