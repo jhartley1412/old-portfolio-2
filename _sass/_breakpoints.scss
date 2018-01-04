@@ -15,7 +15,7 @@
 		display: none;
 	}
 
-	.page-content, .wrapper{
+	.all_samples_container{
 		height: auto;
 		display: block;
 	}
@@ -70,7 +70,7 @@
 		display: block;
 	}
 
-	.page-content{
+	.all_samples_container{
 		height: 70vh;
 
 		display: -webkit-box;
@@ -82,12 +82,8 @@
 		align-items: center;
 	}
 
-	.wrapper{
-		flex: 1;
-	}
-
 	.projects_container{
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	.bts_button{

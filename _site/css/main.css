@@ -155,7 +155,7 @@
   .desktop_logo {
     display: none; }
 
-  .page-content, .wrapper {
+  .all_samples_container {
     height: auto;
     display: block; }
 
@@ -186,7 +186,7 @@
   .desktop_logo {
     display: block; }
 
-  .page-content {
+  .all_samples_container {
     height: 70vh;
     display: -webkit-box;
     display: -moz-box;
@@ -196,11 +196,8 @@
     flex-wrap: wrap;
     align-items: center; }
 
-  .wrapper {
-    flex: 1; }
-
   .projects_container {
-    justify-content: space-between; }
+    justify-content: space-around; }
 
   .bts_button {
     float: left; }
@@ -265,6 +262,7 @@ nav {
 .page-content, .wrapper {
   max-width: 1412px;
   overflow: hidden;
+  display: block;
   margin: 0 auto; }
 
 p, h1, h2 {
@@ -304,11 +302,11 @@ span.underline a {
 
 .all_samples_container {
   margin: 0 auto;
-  overflow: hidden;
-  margin-bottom: 2em; }
+  overflow: hidden; }
 
 .projects_container {
   width: 100%;
+  margin-bottom: 2em;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

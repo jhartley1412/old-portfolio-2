@@ -74,6 +74,7 @@ nav{
 .page-content, .wrapper{
 	max-width: $website-width;
 	overflow: hidden;
+	display: block;
 	margin: 0 auto;
 }
 
@@ -143,11 +144,12 @@ span.underline{
 .all_samples_container{
 	margin: 0 auto;
 	overflow: hidden;
-	margin-bottom: 2em;
 }
 
 .projects_container{
 	width: 100%;
+	margin-bottom: 2em;
+
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
