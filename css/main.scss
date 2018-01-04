@@ -74,9 +74,9 @@ nav{
 .page-content, .wrapper{
 	max-width: $website-width;
 	overflow: hidden;
-	display: block;
 	margin: 0 auto;
 }
+
 
 
 // FONTS AND TYPE
@@ -143,6 +143,7 @@ span.underline{
 .all_samples_container{
 	margin: 0 auto;
 	overflow: hidden;
+	margin-bottom: 2em;
 }
 
 .projects_container{
@@ -153,7 +154,6 @@ span.underline{
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .project_block{
@@ -164,7 +164,6 @@ span.underline{
 
 	&:hover{
 		cursor: pointer;
-		background-color: lighten(#79A7B5, 10%);
 	}
 }
 
@@ -181,6 +180,26 @@ span.underline{
 }
 
 .levelup_img{
+	background-image: url('../../images/levelup/levelupLogoSmall.png');
+
+	&:hover{
+		cursor: pointer;
+		background-color: $prime-color;
+		background-blend-mode: screen;
+	}
+}
+
+.recsports_img{
+	background-image: url('../../images/levelup/levelupLogoSmall.png');
+
+	&:hover{
+		cursor: pointer;
+		background-color: $prime-color;
+		background-blend-mode: screen;
+	}
+}
+
+.nectarRoot_img{
 	background-image: url('../../images/levelup/levelupLogoSmall.png');
 
 	&:hover{
