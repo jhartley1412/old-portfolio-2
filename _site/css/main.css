@@ -303,6 +303,18 @@ span.underline a {
     cursor: pointer;
     background-color: #9abdc7; }
 
+.other_project_block {
+  width: 300px;
+  height: 180px;
+  margin: 0 auto 1em auto;
+  background-color: #79A7B5; }
+  .other_project_block:hover {
+    cursor: pointer;
+    background-color: #9abdc7; }
+
+.levelup_img {
+  background-image: url(""); }
+
 .bts_button {
   padding: 0.5em 1em;
   box-sizing: border-box;

@@ -137,7 +137,7 @@ span.underline{
 
 
 
-// WORK SAMPLES - PROJECTS-MINIMAL PAGE
+// WORK SAMPLES
 //———————————————————————————————————————————
 
 .all_samples_container{
@@ -166,7 +166,22 @@ span.underline{
 		cursor: pointer;
 		background-color: lighten(#79A7B5, 10%)
 	}
+}
 
+.other_project_block{
+	width: 300px;
+	height: 180px;
+	margin: 0 auto 1em auto;
+	background-color: #79A7B5;
+
+	&:hover{
+		cursor: pointer;
+		background-color: lighten(#79A7B5, 10%)
+	}
+}
+
+.levelup_img{
+	background-image: url('')
 }
 
 
