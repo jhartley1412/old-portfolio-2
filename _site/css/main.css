@@ -315,7 +315,9 @@ span.underline a {
 .levelup_img {
   background-image: url("../../images/levelup/levelupLogoSmall.png"); }
   .levelup_img:hover {
-    background-image: url("../../images/levelup/levelupThumbnail.png"); }
+    cursor: pointer;
+    background-color: #e8584e;
+    background-blend-mode: screen; }
 
 .bts_button {
   padding: 0.5em 1em;

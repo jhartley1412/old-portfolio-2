@@ -164,7 +164,7 @@ span.underline{
 
 	&:hover{
 		cursor: pointer;
-		background-color: lighten(#79A7B5, 10%)
+		background-color: lighten(#79A7B5, 10%);
 	}
 }
 
@@ -176,7 +176,7 @@ span.underline{
 
 	&:hover{
 		cursor: pointer;
-		background-color: lighten(#79A7B5, 10%)
+		background-color: lighten(#79A7B5, 10%);
 	}
 }
 
@@ -184,7 +184,9 @@ span.underline{
 	background-image: url('../../images/levelup/levelupLogoSmall.png');
 
 	&:hover{
-		background-image: url('../../images/levelup/levelupThumbnail.png');
+		cursor: pointer;
+		background-color: $prime-color;
+		background-blend-mode: screen;
 	}
 }
 
