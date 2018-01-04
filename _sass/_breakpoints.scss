@@ -38,6 +38,10 @@
 		flex-basis: 100%;
 	}
 
+	.other_samples_container{
+		display: none;
+	}
+
 }
 
 
@@ -65,12 +69,12 @@
 		float: left;
 	}
 
-	.static-img-portrait{
-		flex-basis: 65%;
+	.cs-pictures-container{
+		justify-content: space-between;
 	}
 
-	.static-img-landscape{
-		flex-basis: 90%;
+	.flex-item{
+		flex-basis: 30%;
 	}
 
 }
@@ -80,22 +84,18 @@
 // DESKTOP SIZE
 // ———————————————————————————————————————————
 
-@media(min-width: 978px){
+@media(min-width: 1025px){
 	
 	.case_study_container{
 
 		h2, p{
 			box-sizing: border-box;
-			padding: 0 50px;
+			padding: 0 60px;
 		}
 	}
 
-	.cs-pictures-container{
-		justify-content: space-evenly;
-	}
-
-	.flex-item{
-		flex-basis: 30%;
+	.other_samples_container{
+		display: block;
 	}
 	
 }
