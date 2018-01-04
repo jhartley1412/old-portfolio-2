@@ -30,11 +30,6 @@
 
 	.case_study_container{
 		float: none;
-
-		h2, p{
-			box-sizing: border-box;
-			padding: 0 10px;
-		}
 	}
 
 	.cs-pictures-container{
@@ -71,7 +66,7 @@
 	}
 
 	.all_samples_container{
-		height: 70vh;
+		height: 50vh;
 
 		display: -webkit-box;
 		display: -moz-box;
@@ -110,14 +105,6 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 1025px){
-
-	.case_study_container{
-
-		h2, p{
-			box-sizing: border-box;
-			padding: 0 60px;
-		}
-	}
 
 	.other_samples_container{
 		display: block;
