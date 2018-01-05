@@ -65,6 +65,11 @@
 		display: block;
 	}
 
+	.case_study_container{
+		display: block;
+		margin: 0 auto;
+	}
+
 	.all_samples_container{
 		height: 50vh;
 
@@ -79,14 +84,6 @@
 
 	.projects_container{
 		justify-content: space-around;
-	}
-
-	.bts_button{
-		float: left;
-	}
-
-	.case_study_container{
-		float: left;
 	}
 
 	.cs-pictures-container{
@@ -105,6 +102,14 @@
 // ———————————————————————————————————————————
 
 @media(min-width: 1025px){
+	
+	.bts_button{
+		float: left;
+	}
+
+	.case_study_container{
+		float: left;
+	}
 
 	.other_samples_container{
 		display: block;
