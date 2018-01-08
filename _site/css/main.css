@@ -172,13 +172,17 @@
     padding: 0 10px; }
 
   .cs-pictures-container {
+    width: 85%;
     justify-content: center; }
 
   .flex-item {
     flex-basis: 100%; }
 
   .other_samples_container {
-    display: none; } }
+    display: none; }
+
+  .lightbox-landscape {
+    flex-basis: 85%; } }
 @media (min-width: 650px) {
   .mobile_logo {
     display: none; }
@@ -207,6 +211,7 @@
     justify-content: space-around; }
 
   .cs-pictures-container {
+    width: 100%;
     justify-content: space-between; }
 
   .flex-item {
@@ -219,7 +224,10 @@
     float: left; }
 
   .other_samples_container {
-    display: block; } }
+    display: block; }
+
+  .lightbox-landscape {
+    flex-basis: 65%; } }
 html {
   height: 100%;
   box-sizing: border-box; }
@@ -384,7 +392,6 @@ span.underline a {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   margin: 0 auto; }
 
 .flex-item {
@@ -431,12 +438,10 @@ span.underline a {
   box-sizing: border-box;
   padding: 20px; }
 
-.lightbox-landscape {
-  flex-basis: 65%; }
-  .lightbox-landscape img {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px; }
+.lightbox-landscape img {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px; }
 
 .body-scroll {
   overflow: hidden; }

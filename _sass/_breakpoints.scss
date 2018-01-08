@@ -39,6 +39,7 @@
 	}
 
 	.cs-pictures-container{
+		width: 85%;
 		justify-content: center;
 		// align-content: center;
 	}
@@ -50,6 +51,10 @@
 
 	.other_samples_container{
 		display: none;
+	}
+
+	.lightbox-landscape{
+		flex-basis: 85%;
 	}
 
 }
@@ -99,6 +104,7 @@
 	}
 
 	.cs-pictures-container{
+		width: 100%;
 		justify-content: space-between;
 	}
 
@@ -126,7 +132,11 @@
 	.other_samples_container{
 		display: block;
 	}
-	
+
+	.lightbox-landscape{
+		flex-basis: 65%;
+	}
+
 }
 
 
