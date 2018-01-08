@@ -191,16 +191,6 @@ span.underline{
 	}
 }
 
-.levelup_img_small{
-	background-image: url('../../images/levelup/levelupLogoSmall.png');
-
-	&:hover{
-		cursor: pointer;
-		background-color: $prime-color;
-		background-blend-mode: screen;
-	}
-}
-
 .recsports_img{
 	background-image: url('../../images/levelup/levelupLogoSmall.png');
 
@@ -308,11 +298,13 @@ span.underline{
 	flex-wrap: wrap;
 	justify-content: flex-start;
 
-
 	.other_samples{
-		padding: 0.5em 1em;
-		margin-bottom: 1em;
-		background-color: #fff;
+		width: 100%;
+		background-color: #79A7B5;
+
+		&:hover{
+			cursor: pointer;
+		}
 	}
 }
 

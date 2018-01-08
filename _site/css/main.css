@@ -340,13 +340,6 @@ span.underline a {
     background-color: #e8584e;
     background-blend-mode: screen; }
 
-.levelup_img_small {
-  background-image: url("../../images/levelup/levelupLogoSmall.png"); }
-  .levelup_img_small:hover {
-    cursor: pointer;
-    background-color: #e8584e;
-    background-blend-mode: screen; }
-
 .recsports_img {
   background-image: url("../../images/levelup/levelupLogoSmall.png"); }
   .recsports_img:hover {
@@ -415,9 +408,10 @@ span.underline a {
   flex-wrap: wrap;
   justify-content: flex-start; }
   .other_samples_container .other_samples {
-    padding: 0.5em 1em;
-    margin-bottom: 1em;
-    background-color: #fff; }
+    width: 100%;
+    background-color: #79A7B5; }
+    .other_samples_container .other_samples:hover {
+      cursor: pointer; }
 
 .lightbox {
   width: 100%;
