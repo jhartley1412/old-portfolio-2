@@ -333,18 +333,16 @@ span.underline a {
   .project_block:hover {
     cursor: pointer; }
 
-.other_project_block {
-  width: 300px;
-  height: 180px;
-  margin: 0 auto 1em auto;
-  background-color: #79A7B5; }
-  .other_project_block:hover {
+.levelup_img_large {
+  background-image: url("../../images/levelup/levelupLogoLarge.png"); }
+  .levelup_img_large:hover {
     cursor: pointer;
-    background-color: #9abdc7; }
+    background-color: #e8584e;
+    background-blend-mode: screen; }
 
-.levelup_img {
+.levelup_img_small {
   background-image: url("../../images/levelup/levelupLogoSmall.png"); }
-  .levelup_img:hover {
+  .levelup_img_small:hover {
     cursor: pointer;
     background-color: #e8584e;
     background-blend-mode: screen; }
@@ -408,7 +406,14 @@ span.underline a {
 
 .other_samples_container {
   float: left;
-  overflow: hidden; }
+  overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
   .other_samples_container .other_samples {
     padding: 0.5em 1em;
     margin-bottom: 1em;
