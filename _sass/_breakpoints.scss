@@ -32,6 +32,12 @@
 		float: none;
 	}
 
+	.project_overview{
+		p, h2{
+			padding: 0 10px;
+		}
+	}
+
 	.cs-pictures-container{
 		justify-content: center;
 		// align-content: center;
@@ -68,6 +74,12 @@
 	.case_study_container{
 		display: block;
 		margin: 0 auto;
+	}
+
+	.project_overview{
+		p, h2{
+			padding: 0 30px;
+		}
 	}
 
 	.all_samples_container{
