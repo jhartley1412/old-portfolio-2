@@ -215,8 +215,6 @@
     flex-basis: 30%; }
 
   .other_samples_container {
-    float: left;
-    overflow: hidden;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -224,12 +222,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start; }
-    .other_samples_container .other_samples {
-      width: 100%;
-      margin-bottom: 0.5em;
-      background-color: #79A7B5; }
-      .other_samples_container .other_samples:hover {
-        cursor: pointer; }
 
   .lightbox-landscape {
     flex-basis: 85%;
@@ -377,11 +369,10 @@ span.underline a {
 .project_block {
   width: 300px;
   height: 180px;
-  margin: 0 auto 1em auto;
-  background-color: #79A7B5; }
+  margin: 0 auto 1em auto; }
   .project_block:hover {
     cursor: pointer;
-    background-color: #e8584e;
+    background-color: #C7CACF;
     background-blend-mode: screen; }
 
 .levelup_img_large {
@@ -390,8 +381,8 @@ span.underline a {
 .recsports_img {
   background-image: url("../../images/levelup/levelupLogoSmall.png"); }
 
-.nectarRoot_img {
-  background-image: url("../../images/levelup/levelupLogoSmall.png"); }
+.nectar_img_large {
+  background-image: url("../../images/nectar/nectarLogoLarge.png"); }
 
 .bts_button {
   padding: 0.5em 1em;
@@ -435,6 +426,29 @@ span.underline a {
 
 .b_border {
   border: 1px solid #C7CACF; }
+
+.other_samples_container {
+  float: left;
+  overflow: hidden;
+  min-width: 200px; }
+
+.other_samples {
+  width: 200px;
+  height: 120px;
+  margin-bottom: 0.5em; }
+  .other_samples:hover {
+    cursor: pointer;
+    background-color: #C7CACF;
+    background-blend-mode: screen; }
+
+.levelup_img_small {
+  background-image: url("../../images/levelup/levelupLogoSmall.png"); }
+
+.recsports_img_small {
+  background-image: url("../../images/levelup/levelupLogoSmall.png"); }
+
+.nectar_img_small {
+  background-image: url("../../images/nectar/nectarLogoSmall.png"); }
 
 .lightbox {
   width: 100%;

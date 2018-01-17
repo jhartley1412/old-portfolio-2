@@ -109,9 +109,6 @@
 	}
 
 	.other_samples_container{
-		float: left;
-		overflow: hidden;
-
 		display: -webkit-box;
 		display: -moz-box;
 		display: -ms-flexbox;
@@ -119,16 +116,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-start;
-
-		.other_samples{
-			width: 100%;
-			margin-bottom: 0.5em;
-			background-color: #79A7B5;
-
-			&:hover{
-				cursor: pointer;
-			}
-		}
 	}
 
 	.lightbox-landscape{

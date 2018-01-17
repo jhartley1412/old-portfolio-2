@@ -201,11 +201,10 @@ span.underline{
 	width: 300px;
 	height: 180px;
 	margin: 0 auto 1em auto;
-	background-color: #79A7B5;
 
 	&:hover{
 		cursor: pointer;
-		background-color: $prime-color;
+		background-color: $border-color;
 		background-blend-mode: screen;
 	}
 }
@@ -218,8 +217,8 @@ span.underline{
 	background-image: url('../../images/levelup/levelupLogoSmall.png');
 }
 
-.nectarRoot_img{
-	background-image: url('../../images/levelup/levelupLogoSmall.png');
+.nectar_img_large{
+	background-image: url('../../images/nectar/nectarLogoLarge.png');
 }
 
 
@@ -297,6 +296,36 @@ span.underline{
 	border: 1px solid $border-color;
 }
 
+.other_samples_container{
+	float: left;
+	overflow: hidden;
+	min-width: 200px;
+}
+
+
+.other_samples{
+	width: 200px;
+	height: 120px;
+	margin-bottom: 0.5em;
+
+	&:hover{
+		cursor: pointer;
+		background-color: $border-color;
+		background-blend-mode: screen;
+	}
+}
+
+.levelup_img_small{
+	background-image: url('../../images/levelup/levelupLogoSmall.png');
+}
+
+.recsports_img_small{
+	background-image: url('../../images/levelup/levelupLogoSmall.png');
+}
+
+.nectar_img_small{
+	background-image: url('../../images/nectar/nectarLogoSmall.png');
+}
 
 
 // LIGHTBOX
