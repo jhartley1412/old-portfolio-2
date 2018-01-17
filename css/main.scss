@@ -166,6 +166,12 @@ span.underline{
 .all_samples_container{
 	margin: 0 auto;
 	overflow: hidden;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 }
 
 .projects_container{
@@ -178,6 +184,8 @@ span.underline{
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .project_block{

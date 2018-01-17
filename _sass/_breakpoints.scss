@@ -20,10 +20,6 @@
 		display: block;
 	}
 
-	.projects_container{
-		justify-content: center;
-	}
-
 	.bts_button{
 		float: none;
 	}
@@ -88,7 +84,7 @@
 	}
 
 	.all_samples_container{
-		height: 50vh;
+		height: 80vh;
 
 		display: -webkit-box;
 		display: -moz-box;
@@ -97,10 +93,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-	}
-
-	.projects_container{
-		justify-content: space-around;
 	}
 
 	.cs-pictures-container{
