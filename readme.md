@@ -1,1 +1,1 @@
-This is a repo holding all my personal branding information and design elements.
+This is my portfolio with my best/most recent projects :)
