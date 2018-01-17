@@ -104,6 +104,18 @@
 		flex-basis: 30%;
 	}
 
+	.lightbox-landscape{
+		flex-basis: 85%;
+
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
 }
 
 
@@ -125,9 +137,6 @@
 		display: block;
 	}
 
-	.lightbox-landscape{
-		flex-basis: 65%;
-	}
 
 }
 
