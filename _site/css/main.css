@@ -165,6 +165,9 @@
   .case_study_container {
     float: none; }
 
+  .other_samples_container {
+    display: none; }
+
   .project_overview p, .project_overview h2 {
     padding: 0 10px; }
 
@@ -211,6 +214,23 @@
   .flex-item {
     flex-basis: 30%; }
 
+  .other_samples_container {
+    float: left;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+    .other_samples_container .other_samples {
+      width: 100%;
+      margin-bottom: 0.5em;
+      background-color: #79A7B5; }
+      .other_samples_container .other_samples:hover {
+        cursor: pointer; }
+
   .lightbox-landscape {
     flex-basis: 85%;
     display: -webkit-box;
@@ -242,8 +262,7 @@ body {
   margin: 0 auto;
   display: block;
   position: relative;
-  min-height: 100%;
-  background-color: #F9F9F9; }
+  min-height: 100%; }
 
 header {
   width: 100%;
@@ -271,6 +290,14 @@ nav {
     font-size: 17px;
     color: #000;
     padding-top: 0.7em; }
+
+footer {
+  height: 23px;
+  background-color: #F9F9F9;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 .page-content, .wrapper {
   max-width: 1412px;
@@ -353,28 +380,18 @@ span.underline a {
   margin: 0 auto 1em auto;
   background-color: #79A7B5; }
   .project_block:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    background-color: #e8584e;
+    background-blend-mode: screen; }
 
 .levelup_img_large {
   background-image: url("../../images/levelup/levelupLogoLarge.png"); }
-  .levelup_img_large:hover {
-    cursor: pointer;
-    background-color: #e8584e;
-    background-blend-mode: screen; }
 
 .recsports_img {
   background-image: url("../../images/levelup/levelupLogoSmall.png"); }
-  .recsports_img:hover {
-    cursor: pointer;
-    background-color: #e8584e;
-    background-blend-mode: screen; }
 
 .nectarRoot_img {
   background-image: url("../../images/levelup/levelupLogoSmall.png"); }
-  .nectarRoot_img:hover {
-    cursor: pointer;
-    background-color: #e8584e;
-    background-blend-mode: screen; }
 
 .bts_button {
   padding: 0.5em 1em;
@@ -419,22 +436,6 @@ span.underline a {
 .b_border {
   border: 1px solid #C7CACF; }
 
-.other_samples_container {
-  float: left;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; }
-  .other_samples_container .other_samples {
-    width: 100%;
-    background-color: #79A7B5; }
-    .other_samples_container .other_samples:hover {
-      cursor: pointer; }
-
 .lightbox {
   width: 100%;
   height: 100%;
@@ -466,11 +467,3 @@ span.underline a {
 
 .body-scroll {
   overflow: hidden; }
-
-footer {
-  height: 23px;
-  background-color: #F9F9F9;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0; }

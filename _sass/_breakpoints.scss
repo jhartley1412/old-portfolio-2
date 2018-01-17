@@ -28,6 +28,10 @@
 		float: none;
 	}
 
+	.other_samples_container{
+		display: none;
+	}
+
 	.project_overview{
 		p, h2{
 			padding: 0 10px;
@@ -102,6 +106,29 @@
 
 	.flex-item{
 		flex-basis: 30%;
+	}
+
+	.other_samples_container{
+		float: left;
+		overflow: hidden;
+
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+
+		.other_samples{
+			width: 100%;
+			margin-bottom: 0.5em;
+			background-color: #79A7B5;
+
+			&:hover{
+				cursor: pointer;
+			}
+		}
 	}
 
 	.lightbox-landscape{

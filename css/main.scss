@@ -28,7 +28,7 @@ body{
 	display: block;
 	position: relative;
 	min-height: 100%;
-	background-color: $accent-color;
+	// background-color: $accent-color;
 }
 
 header{
@@ -69,6 +69,15 @@ nav{
 		color: #000;
 		padding-top: 0.7em;
 	}
+}
+
+footer{
+	height: 23px;
+	background-color: $accent-color;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 
@@ -196,49 +205,21 @@ span.underline{
 
 	&:hover{
 		cursor: pointer;
-	}
-}
-
-// .other_project_block{
-// 	// width: 220px;
-// 	// height: 132px;
-// 	margin: 0 auto 1em auto;
-// 	background-color: #79A7B5;
-
-// 	&:hover{
-// 		cursor: pointer;
-// 		background-color: lighten(#79A7B5, 10%);
-// 	}
-// }
-
-.levelup_img_large{
-	background-image: url('../../images/levelup/levelupLogoLarge.png');
-
-	&:hover{
-		cursor: pointer;
 		background-color: $prime-color;
 		background-blend-mode: screen;
 	}
+}
+
+.levelup_img_large{
+	background-image: url('../../images/levelup/levelupLogoLarge.png');
 }
 
 .recsports_img{
 	background-image: url('../../images/levelup/levelupLogoSmall.png');
-
-	&:hover{
-		cursor: pointer;
-		background-color: $prime-color;
-		background-blend-mode: screen;
-	}
 }
 
 .nectarRoot_img{
 	background-image: url('../../images/levelup/levelupLogoSmall.png');
-
-	&:hover{
-		cursor: pointer;
-		background-color: $prime-color;
-		background-blend-mode: screen;
-	}
 }
 
 
@@ -316,28 +297,6 @@ span.underline{
 	border: 1px solid $border-color;
 }
 
-.other_samples_container{
-	float: left;
-	overflow: hidden;
-
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-
-	.other_samples{
-		width: 100%;
-		background-color: #79A7B5;
-
-		&:hover{
-			cursor: pointer;
-		}
-	}
-}
-
 
 
 // LIGHTBOX
@@ -389,18 +348,5 @@ span.underline{
 	overflow: hidden;
 }
 
-
-
-// FOOTER
-//———————————————————————————————————————————
-
-footer{
-	height: 23px;
-	background-color: $accent-color;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
 
 
