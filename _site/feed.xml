@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Janina Hartley&#39;s Portfolio</title>
+    <title>Janina Hartley's Portfolio</title>
     <description>Janina Hartley’s ui, web, and graphic design portfolio..
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jan 2018 10:25:17 -0800</pubDate>
-    <lastBuildDate>Mon, 08 Jan 2018 10:25:17 -0800</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Jan 2018 09:57:05 -0800</pubDate>
+    <lastBuildDate>Wed, 17 Jan 2018 09:57:05 -0800</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
     
   </channel>
 </rss>
