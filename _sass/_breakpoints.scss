@@ -15,11 +15,6 @@
 		display: none;
 	}
 
-	.all_samples_container{
-		height: auto;
-		display: block;
-	}
-
 	.bts_button{
 		float: none;
 	}
@@ -85,18 +80,6 @@
 		p, h2{
 			padding: 0 30px;
 		}
-	}
-
-	.all_samples_container{
-		height: 80vh;
-
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
 	}
 
 	.cs-pictures-container{

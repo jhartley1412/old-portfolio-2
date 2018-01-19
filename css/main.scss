@@ -13,7 +13,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
-  background-color: $prime-gray;
+  background-color: $prime-light;
 }
 
 // used for the footer
@@ -87,6 +87,14 @@ footer{
 	overflow: hidden;
 	display: block;
 	margin: 0 auto;
+}
+
+.pre-header{
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 20px;
+	background-color: $prime-dark;
 }
 
 
@@ -168,16 +176,12 @@ span.underline{
 	margin: 0 auto;
 }
 
-.all_samples_container{
-	margin: 0 auto;
+.all_samples_container, .contact_container{
+	margin: 1em auto;
 	overflow: hidden;
 	background-color: #fff;
-
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+	box-sizing: border-box;
+	padding: 0.5em;
 }
 
 .projects_container{
