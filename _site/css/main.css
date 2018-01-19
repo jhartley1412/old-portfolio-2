@@ -243,7 +243,8 @@
     display: block; } }
 html {
   height: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #E0CFCE; }
 
 *,
 *:before,
@@ -334,8 +335,7 @@ span.underline a {
 
 .home_page_container {
   width: 90%;
-  margin: 0 auto;
-  background-image: url("../../images/levelup/levelupLogoLarge.png"); }
+  margin: 0 auto; }
 
 .home_button {
   width: 3em;
@@ -348,6 +348,7 @@ span.underline a {
 .all_samples_container {
   margin: 0 auto;
   overflow: hidden;
+  background-color: #fff;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -363,8 +364,8 @@ span.underline a {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center; }
+  flex-direction: row;
+  justify-content: space-evenly; }
 
 .project_block {
   width: 300px;

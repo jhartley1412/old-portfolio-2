@@ -13,6 +13,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
+  background-color: $prime-gray;
 }
 
 // used for the footer
@@ -154,7 +155,7 @@ span.underline{
 .home_page_container{
 	width: 90%;
 	margin: 0 auto;
-	background-image: url('../../images/levelup/levelupLogoLarge.png');
+	// background-image: url('../../images/levelup/levelupLogoLarge.png');
 
 }
 
@@ -167,14 +168,10 @@ span.underline{
 	margin: 0 auto;
 }
 
-
-
-// WORK SAMPLES
-//———————————————————————————————————————————
-
 .all_samples_container{
 	margin: 0 auto;
 	overflow: hidden;
+	background-color: #fff;
 
 	display: -webkit-box;
 	display: -moz-box;
@@ -193,8 +190,8 @@ span.underline{
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 .project_block{
