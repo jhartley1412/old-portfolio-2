@@ -31,9 +31,9 @@ body{
 
 header{
 	width: 100%;
-	margin: 0.5em auto 1em auto;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
 	overflow: hidden;
-	background-color: #fff;
 
 	.logo{
 		overflow: hidden;
@@ -152,8 +152,6 @@ span.underline{
 .home_page_container{
 	width: 90%;
 	margin: 0 auto;
-	// background-image: url('../../images/levelup/levelupLogoLarge.png');
-
 }
 
 .home_button{
@@ -168,7 +166,6 @@ span.underline{
 .all_samples_container, .contact_container{
 	margin: 1em auto;
 	overflow: hidden;
-	// background-color: #fff;
 	box-sizing: border-box;
 	padding: 0.5em;
 }
@@ -216,26 +213,12 @@ span.underline{
 // CASE STUDY PAGES
 //———————————————————————————————————————————
 
-// back to samples button
-.bts_button{
-	padding: 0.5em 1em;
-	box-sizing: border-box;
-	background-color: #FEF6F6;
-
-	&:hover{
-		cursor: pointer;
-	}
-}
-
 .case_study_container{
 	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 0 2em;
 	margin-bottom: 2em;
 }
-
-
-
 
 // project main image
 .project_banner{
@@ -249,7 +232,7 @@ span.underline{
 	box-sizing: border-box;
 
 	p{
-		margin: 0.5em 0 1em 0;
+		// margin: 0.5em 0 1em 0;
 	}
 }
 
@@ -262,14 +245,7 @@ span.underline{
 	display: flex;
 	flex-wrap: wrap;
 
-	// width: 100%;
 	margin: 0 auto;
-	// margin: 2em auto 2.5em auto;
-
-	// h2, p{
-	// 	box-sizing: border-box;
-	// 	padding: 0 20px;
-	// }
 }
 
 .flex-item{

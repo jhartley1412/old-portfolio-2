@@ -155,18 +155,6 @@
   .desktop_logo {
     display: none; }
 
-  .bts_button {
-    float: none; }
-
-  .case_study_container {
-    float: none; }
-
-  .other_samples_container {
-    display: none; }
-
-  .project_overview p, .project_overview h2 {
-    padding: 0 10px; }
-
   .cs-pictures-container {
     width: 85%;
     justify-content: center; }
@@ -182,9 +170,6 @@
 
   .desktop_logo {
     display: block; }
-
-  .project_overview p, .project_overview h2 {
-    padding: 0 30px; }
 
   .cs-pictures-container {
     width: 100%;
@@ -212,9 +197,6 @@
     flex-wrap: wrap;
     align-items: center; } }
 @media (min-width: 1025px) {
-  .bts_button {
-    float: left; }
-
   .other_samples_container {
     display: block; } }
 html {
@@ -234,9 +216,9 @@ body {
 
 header {
   width: 100%;
-  margin: 0.5em auto 1em auto;
-  overflow: hidden;
-  background-color: #fff; }
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  overflow: hidden; }
   header .logo {
     overflow: hidden;
     width: 100px;
@@ -356,13 +338,6 @@ span.underline a {
 .nectar_img_large {
   background-image: url("../../images/nectar/nectarLogoLarge.png"); }
 
-.bts_button {
-  padding: 0.5em 1em;
-  box-sizing: border-box;
-  background-color: #FEF6F6; }
-  .bts_button:hover {
-    cursor: pointer; }
-
 .case_study_container {
   margin: 0 auto;
   box-sizing: border-box;
@@ -377,8 +352,6 @@ span.underline a {
 .project-overview {
   width: 100%;
   box-sizing: border-box; }
-  .project-overview p {
-    margin: 0.5em 0 1em 0; }
 
 .cs-pictures-container {
   display: -webkit-box;
