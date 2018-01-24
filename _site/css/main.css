@@ -174,9 +174,6 @@
   .flex-item {
     flex-basis: 100%; }
 
-  .other_samples_container {
-    display: none; }
-
   .lightbox-landscape {
     flex-basis: 85%; } }
 @media (min-width: 650px) {
@@ -185,10 +182,6 @@
 
   .desktop_logo {
     display: block; }
-
-  .case_study_container {
-    display: block;
-    margin: 0 auto; }
 
   .project_overview p, .project_overview h2 {
     padding: 0 30px; }
@@ -222,9 +215,6 @@
   .bts_button {
     float: left; }
 
-  .case_study_container {
-    float: left; }
-
   .other_samples_container {
     display: block; } }
 html {
@@ -248,14 +238,16 @@ header {
   overflow: hidden;
   background-color: #fff; }
   header .logo {
-    float: left; }
+    overflow: hidden;
+    width: 100px;
+    display: block;
+    margin: 0 auto; }
     header .logo img {
       width: 40px;
       margin: 0 1em; }
     header .logo h3 {
-      margin: 0.5em 2em; }
+      margin: 0.5em auto; }
     header .logo a {
-      float: left;
       font-size: 17px;
       color: #000; }
 
@@ -277,7 +269,6 @@ footer {
   left: 0; }
 
 .page-content, .wrapper {
-  max-width: 1412px;
   overflow: hidden;
   display: block;
   margin: 0 auto; }
@@ -373,8 +364,9 @@ span.underline a {
     cursor: pointer; }
 
 .case_study_container {
+  margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 0 2em;
   margin-bottom: 2em; }
 
 .project_banner {
@@ -409,9 +401,8 @@ span.underline a {
   border: 1px solid #C7CACF; }
 
 .other_samples_container {
-  float: left;
   overflow: hidden;
-  min-width: 200px; }
+  background-color: #EFEFEF; }
 
 .other_samples {
   width: 200px;

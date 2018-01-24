@@ -36,7 +36,10 @@ header{
 	background-color: #fff;
 
 	.logo{
-		float: left;
+		overflow: hidden;
+		width: 100px;
+		display: block;
+		margin: 0 auto;
 
 		img{
 			width: 40px;
@@ -44,11 +47,10 @@ header{
 		}
 
 		h3{
-			margin: 0.5em 2em;
+			margin: 0.5em auto;
 		}
 
 		a{
-			float: left;
 			font-size: 17px;
 			color: #000;
 		}
@@ -78,7 +80,7 @@ footer{
 
 
 .page-content, .wrapper{
-	max-width: $website-width;
+	// max-width: $website-width;
 	overflow: hidden;
 	display: block;
 	margin: 0 auto;
@@ -226,8 +228,9 @@ span.underline{
 }
 
 .case_study_container{
+	margin: 0 auto;
 	box-sizing: border-box;
-	padding: 0 20px;
+	padding: 0 2em;
 	margin-bottom: 2em;
 }
 
@@ -285,9 +288,10 @@ span.underline{
 }
 
 .other_samples_container{
-	float: left;
+	// float: left;
 	overflow: hidden;
-	min-width: 200px;
+	// min-width: 200px;
+	background-color: $prime-light;
 }
 
 
