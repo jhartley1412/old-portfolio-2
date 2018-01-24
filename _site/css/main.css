@@ -370,6 +370,7 @@ span.underline a {
   margin-bottom: 2em; }
 
 .project_banner {
+  width: 100%;
   margin: 0 auto;
   display: block; }
 
