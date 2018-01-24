@@ -13,7 +13,6 @@
 html {
   height: 100%;
   box-sizing: border-box;
-  background-color: $prime-light;
 }
 
 // used for the footer
@@ -25,20 +24,16 @@ html {
 
 body{
 	margin: 0 auto;
-	// z-index: 1;
 	display: block;
 	position: relative;
 	min-height: 100%;
-	// background-color: $accent-color;
 }
 
 header{
 	width: 100%;
-	margin-bottom: 1em;
-	// padding: 0.5em 0;
+	margin: 0.5em auto 1em auto;
 	overflow: hidden;
 	background-color: #fff;
-	border-bottom: 3px solid $accent-color;
 
 	.logo{
 		float: left;
@@ -87,14 +82,6 @@ footer{
 	overflow: hidden;
 	display: block;
 	margin: 0 auto;
-}
-
-.pre-header{
-	top: 0;
-	left:0;
-	width: 100%;
-	height: 20px;
-	background-color: $prime-dark;
 }
 
 
@@ -179,7 +166,7 @@ span.underline{
 .all_samples_container, .contact_container{
 	margin: 1em auto;
 	overflow: hidden;
-	background-color: #fff;
+	// background-color: #fff;
 	box-sizing: border-box;
 	padding: 0.5em;
 }

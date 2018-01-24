@@ -229,8 +229,7 @@
     display: block; } }
 html {
   height: 100%;
-  box-sizing: border-box;
-  background-color: #EFEFEF; }
+  box-sizing: border-box; }
 
 *,
 *:before,
@@ -245,10 +244,9 @@ body {
 
 header {
   width: 100%;
-  margin-bottom: 1em;
+  margin: 0.5em auto 1em auto;
   overflow: hidden;
-  background-color: #fff;
-  border-bottom: 3px solid #B9B9B9; }
+  background-color: #fff; }
   header .logo {
     float: left; }
     header .logo img {
@@ -283,13 +281,6 @@ footer {
   overflow: hidden;
   display: block;
   margin: 0 auto; }
-
-.pre-header {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 20px;
-  background-color: #4E4C4C; }
 
 p, h1, h2 {
   font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; }
@@ -341,7 +332,6 @@ span.underline a {
 .all_samples_container, .contact_container {
   margin: 1em auto;
   overflow: hidden;
-  background-color: #fff;
   box-sizing: border-box;
   padding: 0.5em; }
 
