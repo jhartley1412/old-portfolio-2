@@ -246,10 +246,15 @@ span.underline{
 	flex-wrap: wrap;
 
 	margin: 0 auto;
+
+	h3{
+		clear: both;
+		text-align: center;
+	}
 }
 
 .flex-item{
-	margin-bottom: 25px;
+	margin-bottom: 0.5em;
 }
 
 //project minor (b) images
