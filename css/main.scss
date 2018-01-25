@@ -238,19 +238,21 @@ span.underline{
 
 // case study picture conatiner
 .cs-pictures-container{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-wrap: wrap;
-
 	margin: 0 auto;
 
 	h3{
 		clear: both;
 		text-align: center;
 	}
+}
+
+.cs-flex-container{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .flex-item{

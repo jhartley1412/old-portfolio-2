@@ -155,7 +155,7 @@
   .desktop_logo {
     display: none; }
 
-  .cs-pictures-container {
+  .cs-flex-container {
     width: 85%;
     justify-content: center; }
 
@@ -171,7 +171,7 @@
   .desktop_logo {
     display: block; }
 
-  .cs-pictures-container {
+  .cs-flex-container {
     width: 100%;
     justify-content: space-between; }
 
@@ -354,16 +354,18 @@ span.underline a {
   box-sizing: border-box; }
 
 .cs-pictures-container {
+  margin: 0 auto; }
+  .cs-pictures-container h3 {
+    clear: both;
+    text-align: center; }
+
+.cs-flex-container {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto; }
-  .cs-pictures-container h3 {
-    clear: both;
-    text-align: center; }
+  flex-wrap: wrap; }
 
 .flex-item {
   margin-bottom: 0.5em; }
