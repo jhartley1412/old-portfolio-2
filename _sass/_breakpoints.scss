@@ -16,15 +16,11 @@
 	}
 
 
+	.cs_content_container{
+		padding: 0;
+	}
 
-	// .project_overview{
-	// 	p, h2{
-	// 		padding: 0 10px;
-	// 	}
-	// }
-
-	.cs-flex-container{
-		width: 85%;
+	.cs_flex_container{
 		justify-content: center;
 	}
 
@@ -54,8 +50,11 @@
 	}
 
 
+	.cs_content_container{
+		padding: 0 3em;
+	}
 
-	.cs-flex-container{
+	.cs_flex_container{
 		width: 100%;
 		justify-content: space-between;
 	}

@@ -155,8 +155,10 @@
   .desktop_logo {
     display: none; }
 
-  .cs-flex-container {
-    width: 85%;
+  .cs_content_container {
+    padding: 0; }
+
+  .cs_flex_container {
     justify-content: center; }
 
   .flex-item {
@@ -171,7 +173,10 @@
   .desktop_logo {
     display: block; }
 
-  .cs-flex-container {
+  .cs_content_container {
+    padding: 0 3em; }
+
+  .cs_flex_container {
     width: 100%;
     justify-content: space-between; }
 
@@ -338,14 +343,21 @@ span.underline a {
   margin: 0 auto;
   display: block; }
 
-.project-overview {
+.project_overview {
+  width: 100%;
+  box-sizing: border-box; }
+  .project_overview h3 {
+    border-bottom: 1px solid #000; }
+
+.project-cs-info {
   width: 100%;
   box-sizing: border-box; }
 
-.cs-pictures-container {
-  margin: 0 auto; }
+.cs_content_container {
+  margin: 0 auto;
+  box-sizing: border-box; }
 
-.cs-flex-container {
+.cs_flex_container {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

@@ -228,21 +228,29 @@ span.underline{
 	display: block;
 }
 
-.project-overview{
+.project_overview{
 	width: 100%;
 	box-sizing: border-box;
 
-	p{
-		// margin: 0.5em 0 1em 0;
+	h3{
+		border-bottom: 1px solid #000;
 	}
 }
 
-// case study picture conatiner
-.cs-pictures-container{
-	margin: 0 auto;
+
+
+.project-cs-info{
+	width: 100%;
+	box-sizing: border-box;
 }
 
-.cs-flex-container{
+// case study picture conatiner
+.cs_content_container{
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.cs_flex_container{
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
