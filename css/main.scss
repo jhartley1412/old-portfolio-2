@@ -109,6 +109,7 @@ h3{
 	// janinahartley Logo font/header
 	font-family: 'Dosis', 'Tahoma', 'Geneva', sans-serif;
 	font-weight: 300;
+	text-align: center;
 }
 
 a{
@@ -239,11 +240,6 @@ span.underline{
 // case study picture conatiner
 .cs-pictures-container{
 	margin: 0 auto;
-
-	h3{
-		clear: both;
-		text-align: center;
-	}
 }
 
 .cs-flex-container{
@@ -273,7 +269,8 @@ span.underline{
 
 .other_samples_container{
 	width: 100%;
-	margin-bototm: 2em;
+	box-sizing: border-box;
+	padding-bottom: 35px;
 	overflow: hidden;
 	background-color: $prime-light;
 }
@@ -283,27 +280,26 @@ span.underline{
 	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 0.5em 1em;
-
-	h3{
-
-	}
 }
 
 .other_samples_flex{
+	margin: 0 auto;
+	width: 100%;
+
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 
 .other_samples{
 	width: 200px;
 	height: 120px;
-	margin-right: 1em;
+	margin: 1em;
 
 	&:hover{
 		cursor: pointer;
