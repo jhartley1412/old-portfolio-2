@@ -70,7 +70,7 @@ nav{
 }
 
 footer{
-	height: 23px;
+	height: 25px;	
 	background-color: $accent-color;
 	position: absolute;
 	right: 0;
@@ -272,17 +272,38 @@ span.underline{
 }
 
 .other_samples_container{
-	// float: left;
+	width: 100%;
+	margin-bototm: 2em;
 	overflow: hidden;
-	// min-width: 200px;
 	background-color: $prime-light;
+}
+
+.other_samples_content{
+	display: block;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0.5em 1em;
+
+	h3{
+
+	}
+}
+
+.other_samples_flex{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 
 
 .other_samples{
 	width: 200px;
 	height: 120px;
-	margin-bottom: 0.5em;
+	margin-right: 1em;
 
 	&:hover{
 		cursor: pointer;
