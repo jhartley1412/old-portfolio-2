@@ -46,7 +46,7 @@ header{
 			margin: 0 1em;
 		}
 
-		h3{
+		h4{
 			margin: 0.5em auto;
 		}
 
@@ -106,10 +106,15 @@ h1, h2{
 }
 
 h3{
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+h4{
 	// janinahartley Logo font/header
 	font-family: 'Dosis', 'Tahoma', 'Geneva', sans-serif;
 	font-weight: 300;
-	text-align: center;
+	font-size: 19px;
 }
 
 a{
@@ -230,10 +235,10 @@ span.underline{
 
 .project_overview{
 	width: 100%;
-	box-sizing: border-box;
 
 	h3{
-		border-bottom: 1px solid #000;
+		margin-top: 2em;
+		border-bottom: 1px solid $prime-color;
 	}
 }
 
@@ -260,7 +265,7 @@ span.underline{
 }
 
 .flex-item{
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
 //project minor (b) images

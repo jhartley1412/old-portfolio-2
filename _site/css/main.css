@@ -220,7 +220,7 @@ header {
     header .logo img {
       width: 40px;
       margin: 0 1em; }
-    header .logo h3 {
+    header .logo h4 {
       margin: 0.5em auto; }
     header .logo a {
       font-size: 17px;
@@ -260,9 +260,13 @@ h1, h2 {
   font-weight: 600; }
 
 h3 {
+  text-align: center;
+  padding-bottom: 0.5em; }
+
+h4 {
   font-family: 'Dosis', 'Tahoma', 'Geneva', sans-serif;
   font-weight: 300;
-  text-align: center; }
+  font-size: 19px; }
 
 a {
   font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
@@ -344,10 +348,10 @@ span.underline a {
   display: block; }
 
 .project_overview {
-  width: 100%;
-  box-sizing: border-box; }
+  width: 100%; }
   .project_overview h3 {
-    border-bottom: 1px solid #000; }
+    margin-top: 2em;
+    border-bottom: 1px solid #e8584e; }
 
 .project-cs-info {
   width: 100%;
@@ -366,7 +370,7 @@ span.underline a {
   flex-wrap: wrap; }
 
 .flex-item {
-  margin-bottom: 0.5em; }
+  margin-bottom: 1em; }
 
 .b_image {
   display: block;
