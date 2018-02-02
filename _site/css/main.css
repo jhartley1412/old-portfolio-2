@@ -150,7 +150,7 @@
     width: 100%; } }
 @media (min-width: 300px) {
   .skills_container {
-    max-width: 300px; }
+    max-width: 310px; }
     .skills_container p {
       text-align: center; }
 
@@ -303,10 +303,13 @@ span.underline a {
 
 .skills_container {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 6em; }
 
 .website_icon {
-  width: 100%; }
+  width: 100%;
+  display: block;
+  margin: 0 auto; }
 
 .home_button {
   width: 3em;
