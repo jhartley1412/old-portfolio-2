@@ -155,7 +155,7 @@ span.underline{
 //———————————————————————————————————————————
 
 .home_page_container{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -165,14 +165,33 @@ span.underline{
 	margin-bottom: 6em;
 }
 
-
 .website_icon{
 	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
 
+.gray_container{
+	width: 100%;
+	min-height: 3em;
+	padding: 3em 0;
+	background-color: $accent-color;
 
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+.contact_me{
+	width: 216px;
+	margin: 0 auto;
+	background-color: $prime-color;
+	padding: 1em 0;
+	text-align: center;
+	border-radius: 8px;
+	border: 1px solid $text-color;
+}
 
 
 
