@@ -31,29 +31,28 @@ body{
 
 header{
 	width: 100%;
-	margin-bottom: 1em;
+	box-sizing: border-box;
 	padding-top: 0.5em;
+	background-color: $prime-color;
 	overflow: hidden;
 
 	.logo{
 		overflow: hidden;
-		width: 100px;
+		width: 40px;
 		display: block;
 		margin: 0 auto;
 
 		img{
-			width: 40px;
-			margin: 0 1em;
+			width: 100%;
 		}
+	}
 
-		h4{
-			margin: 0.5em auto;
-		}
-
-		a{
-			font-size: 17px;
-			color: #000;
-		}
+	.name{
+		width: 100%;
+		margin-top: 0.5em;
+		background-color: $accent-color;
+		padding: 1em 0;
+		text-align: center;
 	}
 }
 
@@ -159,6 +158,29 @@ span.underline{
 	width: 90%;
 	margin: 0 auto;
 }
+
+.skills_container{
+	width: 100%;
+	margin: 0 auto;
+	// display: -webkit-box;
+	// display: -moz-box;
+	// display: -ms-flexbox;
+	// display: -webkit-flex;
+	// display: flex;
+
+	// flex-wrap: no-wrap;
+	// justify-content: center;
+}
+
+
+.website_icon{
+	width: 100%;
+}
+
+
+
+
+
 
 .home_button{
 	width: 3em;
@@ -360,7 +382,6 @@ span.underline{
 }
 
 .lightbox-portrait{
-	// flex-basis: 40%;
 
 	img{
 		height: 100%;
@@ -370,7 +391,6 @@ span.underline{
 }
 
 .lightbox-landscape{
-	// flex-basis: 65%;
 
 	img{
 		width: 100%;

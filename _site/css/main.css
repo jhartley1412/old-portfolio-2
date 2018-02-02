@@ -149,6 +149,14 @@
   .col-lg-12 {
     width: 100%; } }
 @media (min-width: 300px) {
+  .skills_container {
+    max-width: 300px; }
+    .skills_container p {
+      text-align: center; }
+
+  .website_icon {
+    max-width: 200px; }
+
   .mobile_logo {
     display: block; }
 
@@ -209,22 +217,23 @@ body {
 
 header {
   width: 100%;
-  margin-bottom: 1em;
+  box-sizing: border-box;
   padding-top: 0.5em;
+  background-color: #e8584e;
   overflow: hidden; }
   header .logo {
     overflow: hidden;
-    width: 100px;
+    width: 40px;
     display: block;
     margin: 0 auto; }
     header .logo img {
-      width: 40px;
-      margin: 0 1em; }
-    header .logo h4 {
-      margin: 0.5em auto; }
-    header .logo a {
-      font-size: 17px;
-      color: #000; }
+      width: 100%; }
+  header .name {
+    width: 100%;
+    margin-top: 0.5em;
+    background-color: #F5F5F5;
+    padding: 1em 0;
+    text-align: center; }
 
 nav {
   float: left; }
@@ -237,7 +246,7 @@ nav {
 
 footer {
   height: 25px;
-  background-color: #B9B9B9;
+  background-color: #F5F5F5;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -291,6 +300,13 @@ span.underline a {
 .home_page_container {
   width: 90%;
   margin: 0 auto; }
+
+.skills_container {
+  width: 100%;
+  margin: 0 auto; }
+
+.website_icon {
+  width: 100%; }
 
 .home_button {
   width: 3em;
