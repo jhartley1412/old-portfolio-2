@@ -248,12 +248,23 @@ nav {
     padding-top: 0.7em; }
 
 footer {
-  height: 25px;
-  background-color: #F5F5F5;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0; }
+  background-color: #F5F5F5; }
+  footer img {
+    width: 48px; }
+
+.social_container {
+  width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.behance {
+  width: 65px; }
 
 .page-content, .wrapper {
   overflow: hidden;
