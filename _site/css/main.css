@@ -157,6 +157,9 @@
   .website_icon {
     max-width: 200px; }
 
+  .other_work_container img {
+    display: none; }
+
   .mobile_logo {
     display: block; }
 
@@ -317,8 +320,14 @@ span.underline a {
   padding: 3em 0;
   background-color: #F5F5F5; }
   .gray_container a {
-    text-decoration: none;
     color: #fff; }
+
+.other_work_container {
+  text-align: center;
+  font-size: 19px; }
+  .other_work_container a {
+    display: block;
+    margin-bottom: 2em; }
 
 .contact_me {
   width: 216px;

@@ -178,8 +178,17 @@ span.underline{
 	background-color: $accent-color;
 
 	a{
-		text-decoration: none;
 		color: #fff;
+	}
+}
+
+.other_work_container{
+	text-align: center;
+	font-size: 19px;
+
+	a{
+		display: block;
+		margin-bottom: 2em;
 	}
 }
 
