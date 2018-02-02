@@ -69,6 +69,8 @@ nav{
 }
 
 footer{	
+	width: 100%;
+	padding: 1.5em 0 3em 0;
 	background-color: $accent-color;
 	// position: absolute;
 	// right: 0;
@@ -114,17 +116,25 @@ footer{
 //———————————————————————————————————————————
 
 p, h1, h2{
-	font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-family: 'ABeeZee', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	color: $text-color;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: center;
+	margin: 2em 0;
+}
+
+h2{
+	font-size: 19px;
+	text-align: center;
 }
 
 p{
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.4;
-	margin: 1.5em auto;
-}
-
-h1, h2{
-	font-weight: 600;
 }
 
 h3{
@@ -212,6 +222,8 @@ span.underline{
 	a{
 		display: block;
 		margin-bottom: 2em;
+		color: $prime-color;
+		text-decoration: underline;
 	}
 }
 
