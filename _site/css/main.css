@@ -173,7 +173,7 @@
     flex-wrap: wrap;
     justify-content: center; }
 
-  .wireframe, .styletile {
+  .cs_img {
     width: 100%; }
 
   .lightbox-landscape {
@@ -226,7 +226,7 @@
     flex-direction: row;
     justify-content: space-between; }
 
-  .wireframe, .styletile {
+  .cs_img {
     width: 90%; }
 
   .lightbox-landscape {
