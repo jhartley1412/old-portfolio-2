@@ -105,33 +105,37 @@ p, h1, h2, h3, h4{
 	color: $text-color;
 }
 
+h1, h2{
+	font-family: 'ABeeZee', Verdana, Geneva, sans-serif, sans-serif;
+}
+
+h3, p{
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
 h1{
 	text-transform: uppercase;
 	font-size: 16px;
 	text-align: center;
 	margin: 2em 0;
 	font-weight: 100;
-	font-family: 'ABeeZee', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 h2{
 	font-size: 19px;
 	text-align: center;
-	font-family: 'ABeeZee', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	font-weight: 400;
 }
 
 h3{
 	text-align: center;
 	margin-top: 2em;
-	font-family: 'Lato', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	font-weight: 400;
 }
 
 p{
 	font-size: 16px;
 	line-height: 1.4;
-	font-family: 'Lato', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 a{
