@@ -288,6 +288,8 @@ footer {
   background-color: #F5F5F5; }
   footer img {
     width: 48px; }
+  footer h1 {
+    margin-top: 1em; }
 
 .social_container {
   width: 300px;
@@ -331,7 +333,7 @@ h3 {
   font-weight: 400; }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4; }
 
 a {
