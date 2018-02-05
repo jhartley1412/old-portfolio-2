@@ -105,11 +105,11 @@ p, h1, h2, h3, h4{
 	color: $text-color;
 }
 
-h1, h2{
+h1, h2, .name{
 	font-family: 'ABeeZee', Verdana, Geneva, sans-serif, sans-serif;
 }
 
-h3, p{
+h3, p,{
 	font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
@@ -150,6 +150,11 @@ a{
 .home_page_container{
 	width: 100%;
 	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 3em 0;
+	background-image: url("../../images/two-desktops.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .skills_container{

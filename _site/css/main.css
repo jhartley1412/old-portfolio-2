@@ -307,7 +307,7 @@ footer {
 p, h1, h2, h3, h4 {
   color: #312424; }
 
-h1, h2 {
+h1, h2, .name {
   font-family: 'ABeeZee', Verdana, Geneva, sans-serif, sans-serif; }
 
 h3, p {
@@ -339,7 +339,12 @@ a {
 
 .home_page_container {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 3em 0;
+  background-image: url("../../images/two-desktops.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .skills_container {
   margin: 0 auto;
