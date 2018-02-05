@@ -169,8 +169,12 @@
     .other_work_container img {
       display: none; }
 
-  .wireframe_container {
+  .wireframe_container, .style_container {
+    flex-wrap: wrap;
     justify-content: center; }
+
+  .wireframe, .styletile {
+    width: 100%; }
 
   .mobile_logo {
     display: block; }
@@ -210,7 +214,6 @@
       display: none; }
 
   .other_work_container {
-    width: 700px;
     margin: 0 auto;
     padding-bottom: 2em;
     display: -webkit-box;
@@ -226,6 +229,20 @@
     .other_work_container img {
       display: block;
       float: left; }
+
+  .other_work_home {
+    width: 700px; }
+
+  .other_work_case_study {
+    width: 450px; }
+
+  .wireframe_container, .style_container {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between; }
+
+  .wireframe, .styletile {
+    width: 90%; }
 
   .mobile_logo {
     display: none; }
@@ -351,7 +368,7 @@ h4 {
 
 a {
   font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  text-decoration: none; }
+  color: #e8584e; }
 
 .prime-color {
   color: #e8584e; }
@@ -452,6 +469,8 @@ span.underline a {
   background-image: url("../../images/nectar/nectarLogoLarge.png"); }
 
 .case_study_container {
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0 2em;
@@ -462,20 +481,19 @@ span.underline a {
   margin: 0 auto;
   display: block; }
 
-.wireframe_container {
+.wireframe_container, .style_container {
   width: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap; }
+  display: flex; }
 
-.wireframe {
-  width: 100%;
+.cs_img {
   border: 1px solid #F5F5F5;
-  margin-bottom: 1em; }
+  margin: 0.5em auto;
+  box-sizing: border-box; }
 
 .project_overview {
   width: 100%; }

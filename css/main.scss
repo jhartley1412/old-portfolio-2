@@ -151,7 +151,7 @@ h4{
 
 a{
 	font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-	text-decoration: none;
+	color: $prime-color;
 }
 
 
@@ -298,6 +298,8 @@ span.underline{
 //———————————————————————————————————————————
 
 .case_study_container{
+	width: 100%;
+	max-width: 1000px;
 	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 0 2em;
@@ -311,7 +313,7 @@ span.underline{
 	display: block;
 }
 
-.wireframe_container{
+.wireframe_container, .style_container{
 	width: 100%;
 	margin: 0 auto;
 
@@ -320,13 +322,12 @@ span.underline{
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	flex-wrap: wrap;
 }
 
-.wireframe{
-	width: 100%;
+.cs_img{
 	border: 1px solid $accent-color;
-	margin-bottom: 1em;
+	margin: 0.5em auto;
+	box-sizing: border-box;
 }
 
 

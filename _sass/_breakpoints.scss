@@ -40,8 +40,13 @@
 		}
 	}
 
-	.wireframe_container{
+	.wireframe_container, .style_container{
+		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.wireframe, .styletile{
+		width: 100%;
 	}
 
 
@@ -112,7 +117,6 @@
 	}
 
 	.other_work_container{
-		width: 700px;
 		margin: 0 auto;
 		padding-bottom: 2em;
 
@@ -134,6 +138,27 @@
 			float: left;
 		}
 	}
+
+	.other_work_home{
+		width: 700px;
+	}
+
+	.other_work_case_study{
+		width: 450px;
+	}
+
+
+	.wireframe_container, .style_container{
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.wireframe, .styletile{
+		width: 90%;
+	}
+
+
 
 
 
