@@ -176,21 +176,6 @@
   .wireframe, .styletile {
     width: 100%; }
 
-  .mobile_logo {
-    display: block; }
-
-  .desktop_logo {
-    display: none; }
-
-  .cs_content_container {
-    padding: 0; }
-
-  .cs_flex_container {
-    justify-content: center; }
-
-  .flex-item {
-    flex-basis: 100%; }
-
   .lightbox-landscape {
     flex-basis: 85%; } }
 @media (min-width: 650px) {
@@ -243,22 +228,6 @@
 
   .wireframe, .styletile {
     width: 90%; }
-
-  .mobile_logo {
-    display: none; }
-
-  .desktop_logo {
-    display: block; }
-
-  .cs_content_container {
-    padding: 0 3em; }
-
-  .cs_flex_container {
-    width: 100%;
-    justify-content: space-between; }
-
-  .flex-item {
-    flex-basis: 30%; }
 
   .lightbox-landscape {
     flex-basis: 85%;
@@ -335,11 +304,6 @@ footer {
 .behance {
   width: 70px; }
 
-.page-content, .wrapper {
-  overflow: hidden;
-  display: block;
-  margin: 0 auto; }
-
 p, h1, h2, h3, h4 {
   color: #312424; }
 
@@ -357,24 +321,18 @@ h2 {
   font-family: 'ABeeZee', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-weight: 400; }
 
-p {
-  font-size: 16px;
-  line-height: 1.4;
-  font-family: 'Lato', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; }
-
 h3 {
   text-align: center;
   margin-top: 2em;
   font-family: 'Lato', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-weight: 400; }
 
-h4 {
-  font-family: 'Dosis', 'Tahoma', 'Geneva', sans-serif;
-  font-weight: 300;
-  font-size: 19px; }
+p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Lato', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; }
 
 a {
-  font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   color: #e8584e; }
 
 .home_page_container {
@@ -422,50 +380,6 @@ a {
 .contact_footer {
   margin-top: 2em; }
 
-.home_button {
-  width: 3em;
-  height: 3em;
-  padding: 1em 1.5em;
-  text-decoration: none;
-  background-color: #e8584e;
-  margin: 0 auto; }
-
-.all_samples_container, .contact_container {
-  margin: 1em auto;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding: 0.5em; }
-
-.projects_container {
-  width: 100%;
-  margin-bottom: 2em;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
-.project_block {
-  width: 300px;
-  height: 180px;
-  margin: 0 auto 1em auto; }
-  .project_block:hover {
-    cursor: pointer;
-    background-color: #C7CACF;
-    background-blend-mode: screen; }
-
-.levelup_img_large {
-  background-image: url("../../images/levelup/levelupLogoLarge.png"); }
-
-.recsports_img_large {
-  background-image: url("../../images/recsports/recsportsLogoLarge.png"); }
-
-.nectar_img_large {
-  background-image: url("../../images/nectar/nectarLogoLarge.png"); }
-
 .case_study_container {
   width: 100%;
   max-width: 1000px;
@@ -492,79 +406,6 @@ a {
   border: 1px solid #F5F5F5;
   margin: 0.5em auto;
   box-sizing: border-box; }
-
-.project_overview {
-  width: 100%; }
-
-.project-cs-info {
-  width: 100%;
-  box-sizing: border-box; }
-
-.cs_content_container {
-  margin: 0 auto;
-  box-sizing: border-box; }
-
-.cs_flex_container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap; }
-
-.flex-item {
-  margin-bottom: 1em; }
-
-.b_image {
-  display: block;
-  margin: auto;
-  box-sizing: border-box;
-  width: 100%; }
-
-.b_border {
-  border: 1px solid #C7CACF; }
-
-.other_samples_container {
-  width: 100%;
-  box-sizing: border-box;
-  padding-bottom: 35px;
-  overflow: hidden;
-  background-color: #EFEFEF; }
-
-.other_samples_content {
-  display: block;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0.5em 1em; }
-
-.other_samples_flex {
-  margin: 0 auto;
-  width: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.other_samples {
-  width: 200px;
-  height: 120px;
-  margin: 1em; }
-  .other_samples:hover {
-    cursor: pointer;
-    background-color: #C7CACF;
-    background-blend-mode: screen; }
-
-.levelup_img_small {
-  background-image: url("../../images/levelup/levelupLogoSmall.png"); }
-
-.recsports_img_small {
-  background-image: url("../../images/recsports/recsportsLogoSmall.png"); }
-
-.nectar_img_small {
-  background-image: url("../../images/nectar/nectarLogoSmall.png"); }
 
 .lightbox {
   width: 100%;

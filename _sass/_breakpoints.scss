@@ -49,32 +49,6 @@
 		width: 100%;
 	}
 
-
-
-
-
-
-	.mobile_logo{
-		display: block;
-	}
-
-	.desktop_logo{
-		display: none;
-	}
-
-
-	.cs_content_container{
-		padding: 0;
-	}
-
-	.cs_flex_container{
-		justify-content: center;
-	}
-
-	.flex-item{
-		flex-basis: 100%;
-	}
-
 	.lightbox-landscape{
 		flex-basis: 85%;
 	}
@@ -156,34 +130,6 @@
 
 	.wireframe, .styletile{
 		width: 90%;
-	}
-
-
-
-
-
-
-
-	.mobile_logo{
-		display: none;
-	}
-
-	.desktop_logo{
-		display: block;
-	}
-
-
-	.cs_content_container{
-		padding: 0 3em;
-	}
-
-	.cs_flex_container{
-		width: 100%;
-		justify-content: space-between;
-	}
-
-	.flex-item{
-		flex-basis: 30%;
 	}
 
 	.lightbox-landscape{
