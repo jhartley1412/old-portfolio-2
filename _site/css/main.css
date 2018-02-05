@@ -164,8 +164,10 @@
   .skill_text h2 {
     display: block; }
 
-  .other_work_container img {
-    display: none; }
+  .other_work_container {
+    display: block; }
+    .other_work_container img {
+      display: none; }
 
   .mobile_logo {
     display: block; }
@@ -203,6 +205,23 @@
     margin-top: 1em; }
     .skill_text h2 {
       display: none; }
+
+  .other_work_container {
+    width: 700px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; }
+    .other_work_container a {
+      font-size: 0; }
+    .other_work_container img {
+      display: block;
+      float: left; }
 
   .mobile_logo {
     display: none; }
