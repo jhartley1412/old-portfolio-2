@@ -8,15 +8,28 @@
 @media(min-width: 300px){
 	
 	.skills_container{
+		width: 100%;
 		max-width: 310px;
 
 		p{
 			text-align: center;
 		}
+
+		h2{
+			display: none;
+		}
 	}
 
 	.website_icon{
-		max-width: 160px;
+		width: 160px;
+		margin: 0 auto;
+	}
+
+	.skill_text{
+
+		h2{
+			display: block;		
+		}
 	}
 
 	.other_work_container{
@@ -25,6 +38,7 @@
 			display: none;
 		}
 	}
+
 
 
 
@@ -66,6 +80,39 @@
 
 @media(min-width: 650px){
 	
+	.skills_container{
+		width: 80%;
+		max-width: 600px;
+
+		p{
+			text-align: left;
+		}
+
+		h2{
+			display: block;
+			margin-bottom: 0;
+		}
+	}
+
+	.website_icon{
+		width: 130px;
+		float: left;
+	}
+
+	.skill_text{
+		margin-left: 150px;
+		margin-top: 1em;
+
+		h2{
+			display: none;		
+		}
+	}
+
+
+
+
+
+
 	.mobile_logo{
 		display: none;
 	}
