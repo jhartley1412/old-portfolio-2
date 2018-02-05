@@ -169,6 +169,9 @@
     .other_work_container img {
       display: none; }
 
+  .wireframe_container {
+    justify-content: center; }
+
   .mobile_logo {
     display: block; }
 
@@ -209,6 +212,7 @@
   .other_work_container {
     width: 700px;
     margin: 0 auto;
+    padding-bottom: 2em;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -458,11 +462,23 @@ span.underline a {
   margin: 0 auto;
   display: block; }
 
+.wireframe_container {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap; }
+
+.wireframe {
+  width: 100%;
+  border: 1px solid #F5F5F5;
+  margin-bottom: 1em; }
+
 .project_overview {
   width: 100%; }
-  .project_overview h3 {
-    margin-top: 2em;
-    border-bottom: 1px solid #e8584e; }
 
 .project-cs-info {
   width: 100%;
