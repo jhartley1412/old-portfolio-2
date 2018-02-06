@@ -169,7 +169,7 @@
     .other_work_container img {
       display: none; }
 
-  .wireframe_container, .style_container {
+  .image_container {
     flex-wrap: wrap;
     justify-content: center; }
 
@@ -221,7 +221,7 @@
   .other_work_case_study {
     width: 450px; }
 
-  .wireframe_container, .style_container {
+  .image_container {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between; }
@@ -398,7 +398,7 @@ a {
   margin: 0 auto;
   display: block; }
 
-.wireframe_container, .style_container {
+.image_container {
   width: 100%;
   margin: 0 auto;
   display: -webkit-box;
