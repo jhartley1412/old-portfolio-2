@@ -49,6 +49,18 @@
 		width: 100%;
 	}
 
+	.lightbox-portrait{
+		// flex-basis: 85%;
+
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
 	.lightbox-landscape{
 		flex-basis: 85%;
 	}

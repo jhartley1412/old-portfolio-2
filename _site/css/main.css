@@ -176,6 +176,15 @@
   .cs_img {
     width: 100%; }
 
+  .lightbox-portrait {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+
   .lightbox-landscape {
     flex-basis: 85%; } }
 @media (min-width: 650px) {
@@ -446,7 +455,8 @@ a {
 .lightbox-portrait img {
   height: 100%;
   box-sizing: border-box;
-  padding: 20px; }
+  padding: 20px;
+  margin: 0 auto; }
 
 .lightbox-landscape img {
   width: 100%;
