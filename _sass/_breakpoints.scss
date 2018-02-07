@@ -49,8 +49,8 @@
 		width: 100%;
 	}
 
-	.lightbox-portrait{
-		// flex-basis: 85%;
+	.lightbox-landscape, .lightbox-portrait{
+		flex-basis: 85%;
 
 		display: -webkit-box;
 		display: -moz-box;
@@ -59,10 +59,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-	}
-
-	.lightbox-landscape{
-		flex-basis: 85%;
 	}
 
 }
@@ -144,16 +140,8 @@
 		width: 90%;
 	}
 
-	.lightbox-landscape{
+	.lightbox-landscape, .lightbox-portrait{
 		flex-basis: 85%;
-
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
 	}
 
 }
